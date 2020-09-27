@@ -9,16 +9,13 @@ export async function getStaticProps() {
   }
 }
 
-export default function palestrantesPage({ palestrantes }) {
-  type Props = {
-    url: string
-    name: string
-    short_description: string
-  }
-
+type Prop = {
+  palestrantes: []
+}
+export default function palestrantesPage({ palestrantes }: Prop) {
   return (
     <ul>
-      {palestrantes.map(({ name, url }: Props, i: number) => {
+      {palestrantes.map(({ name, url }, i: number) => {
         return (
           <li key={i}>
             <Link href={`/palestrantes/${url}`}>

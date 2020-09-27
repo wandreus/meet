@@ -1,0 +1,50 @@
+{
+  "palestrantes": [
+    {
+      "name": "Wandreus Pereira",
+      "url": "wandreus-pereira",
+      "img": [
+        {
+          "1": "/img/hero-illustration.svg",
+          "2": "url",
+          "3": "url"
+        }
+      ],
+      "short_description": "Front-end Developer | React | JavaScript | TypeScript | Vtex E-commerce",
+      "category": ["Front-end Developer", "React", "JavaScript"],
+      "social_midia": [
+        {
+          "facebook": "#",
+          "linkedin": "#",
+          "instagram": "#",
+          "twitter": "#"
+        }
+      ],
+      "bio": "Há mais de 8 anos trabalhando com programação de Front-end. Certificado Vtex : Project/Implantação, Reseller, Expert/Suport  Criação de Sistemas de solução Web, controles de estoque, Loja Virtual, Web Sites.      Programação Mobile e responsiva utilizando as mais recentes linguagens do mercado. ",
+      "video": "#urlOrId"
+    },
+    {
+      "name": "Barbara Palma",
+      "url": "barbara-palma",
+      "img": [
+        {
+          "1": "/img/logo.svg",
+          "2": "url",
+          "3": "url"
+        }
+      ],
+      "short_description": "Front-end Developer | React | JavaScript | TypeScript | Vtex E-commerce",
+      "category": ["Front-end Developer", "React", "JavaScript"],
+      "social_midia": [
+        {
+          "facebook": "#",
+          "linkedin": "#",
+          "instagram": "#",
+          "twitter": "#"
+        }
+      ],
+      "bio": "Há mais de 8 anos trabalhando com programação de Front-end. Certificado Vtex : Project/Implantação, Reseller, Expert/Suport  Criação de Sistemas de solução Web, controles de estoque, Loja Virtual, Web Sites.      Programação Mobile e responsiva utilizando as mais recentes linguagens do mercado. ",
+      "video": "#urlOrId"
+    }
+  ]
+}

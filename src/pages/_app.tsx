@@ -1,9 +1,19 @@
+import { useEffect } from 'react'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 
 import GlobalStyles from 'styles/global'
 
 function App({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    if ('serviceWorker' in navigator && 'PushManager' in window) {
+      navigator.serviceWorker
+        .register('/sw.js', { scope: '/' })
+        .then((swReg) => swReg)
+        .catch((error) => console.log('Service Worker Error', error))
+    }
+  }, [])
+
   return (
     <>
       <Head>
@@ -11,9 +21,9 @@ function App({ Component, pageProps }: AppProps) {
           Meet Palestras - O mais completo e diversificado banco de palestrantes
           e mestres de cerimônia
         </title>
-        <link rel="shortcut icon" href="/img/icon-512.png" />
-        <link rel="apple-touch-icon" href="/img/icon-512.png" />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="shortcut icon" href="/meet/img/icon-512.png" />
+        <link rel="apple-touch-icon" href="/meet/img/icon-512.png" />
+        <link rel="manifest" href="/meet/manifest.json" />
         <meta
           name="description"
           content="Meet Palestras - O mais completo e diversificado banco de palestrantes e mestres de cerimônia"

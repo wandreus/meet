@@ -21,9 +21,9 @@ function App({ Component, pageProps }: AppProps) {
           Meet Palestras - O mais completo e diversificado banco de palestrantes
           e mestres de cerimônia
         </title>
-        <link rel="shortcut icon" href="/meet/img/icon-512.png" />
-        <link rel="apple-touch-icon" href="/meet/img/icon-512.png" />
-        <link rel="manifest" href="/meet/manifest.json" />
+        <link rel="shortcut icon" href="/img/icon-512.png" />
+        <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
           content="Meet Palestras - O mais completo e diversificado banco de palestrantes e mestres de cerimônia"

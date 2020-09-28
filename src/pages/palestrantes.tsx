@@ -2,20 +2,24 @@ import Link from 'next/link'
 import { palestrantes } from '../../public/palestrantes.json'
 
 export async function getStaticProps() {
+  const prop = palestrantes.filter(({ type }) =>
+    type.find((element) => element === 'palestrante')
+  )
   return {
     props: {
-      palestrantes
+      prop
     }
   }
 }
 
 type Prop = {
-  palestrantes: []
+  prop: []
 }
-export default function palestrantesPage({ palestrantes }: Prop) {
+
+export default function palestrantesPage({ prop }: Prop) {
   return (
     <ul>
-      {palestrantes.map(({ name, url }, i: number) => {
+      {prop.map(({ name, url }, i: number) => {
         return (
           <li key={i}>
             <Link href={`/palestrantes/${url}`}>

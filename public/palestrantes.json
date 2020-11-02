@@ -1,54 +1,61 @@
 {
   "palestrantes": [
-    {
-      "name": "Wandreus Pereira",
-      "url": "wandreus-pereira",
-      "spotlight": true,
-      "type": ["palestrante", "mestre"],
-      "img": [
-        {
-          "1": "/img/hero-illustration.svg",
-          "2": "url",
-          "3": "url"
-        }
-      ],
-      "short_description": "Front-end Developer | React | JavaScript | TypeScript | Vtex E-commerce",
-      "category": ["Front-end Developer", "React", "JavaScript"],
-      "social_midia": [
-        {
-          "facebook": "#",
-          "linkedin": "#",
-          "instagram": "#",
-          "twitter": "#"
-        }
-      ],
-      "bio": "Há mais de 8 anos trabalhando com programação de Front-end. Certificado Vtex : Project/Implantação, Reseller, Expert/Suport  Criação de Sistemas de solução Web, controles de estoque, Loja Virtual, Web Sites.      Programação Mobile e responsiva utilizando as mais recentes linguagens do mercado. ",
-      "video": "#urlOrId"
-    },
-    {
-      "name": "Barbara Palma",
-      "url": "baraba-palma",
-      "spotlight": true,
-      "type": ["palestrante", "mestre"],
-      "img": [
-        {
-          "1": "/img/hero-illustration.svg",
-          "2": "url",
-          "3": "url"
-        }
-      ],
-      "short_description": "Front-end Developer | React | JavaScript | TypeScript | Vtex E-commerce",
-      "category": ["Front-end Developer", "React", "JavaScript"],
-      "social_midia": [
-        {
-          "facebook": "#",
-          "linkedin": "#",
-          "instagram": "#",
-          "twitter": "#"
-        }
-      ],
-      "bio": "Há mais de 8 anos trabalhando com programação de Front-end. Certificado Vtex : Project/Implantação, Reseller, Expert/Suport  Criação de Sistemas de solução Web, controles de estoque, Loja Virtual, Web Sites.      Programação Mobile e responsiva utilizando as mais recentes linguagens do mercado. ",
-      "video": "#urlOrId"
-    }
+    [
+      {
+        "img": "https://static.wixstatic.com/media/cd9c08_1e7ebd14937b4ea6b725820dea5c1f1b~mv2.jpg/v1/fill/w_180,h_210,al_c,q_80,usm_0.66_1.00_0.01/foto%20nancy.webp",
+        "name": "Nancy Lima",
+        "url": "nancylima",
+        "spotlight": "no",
+        "type": "Palestrante",
+        "short_description": "Capacitando pessoas, times e empresas para vencer",
+        "bio": "Capacitando pessoas, times e empresas para vencer\n\nEncontre a solução para você ou sua empresa.\n​\nToda realização nasce de um sonho\n\nTudo começou em 2014 com a necessidade de buscar novas competências profissionais para uma carreira de dezessete anos na área gráfica, como gestora. Procurei por um curso de coaching que me daria técnicas que elevariam meus resultados profissionais. A partir dali percebi que poderia ir além.\nSonhos começaram a surgir.\nDepois de um tempo trabalhando na empresa em que estava e paralelamente como Coach, veio a decisão em 2016, pedi demissão para me dedicar integralmente ao Coaching, e hoje meu sonho se tornou em projetos e\ndele uma nova forma de viver. \nTerminei o MBA em Coaching, fiz uma Pós Graduação em Neurociência e Psicologia Aplicada e hoje estou me graduando em Psicologia. Entendi que precisava ir muito, muito mais além.\nCasada, filha de um Deus vivo, mãe de uma menina linda a Ana Julia, hoje, vivo “Caçando a Excelência” nos meus relacionamentos, na minha vida pessoal e profissional, busco uma nova mentalidade para viver uma vida abundante e como missão fazer com que pessoas se descubram pessoalmente e profissionalmente trazendo descobertas, crescimentos e realizações.\n​\nAlém do coaching de carreira e liderança, dedico parte do meu trabalho no Curso de Inteligência Emocional com ferramentas da Neurociência, Psicologia Positiva e Coaching.\n\nTemas: Neurociencia, Desenvolvimento Comportamental, Inteligência Emocional, Carreira, Capacitação\n\nO ponto inicial do sucesso e da felicidade é assumir o controle da sua vida",
+        "video": "https://youtu.be/TIBXhsq9DRE",
+        "theme": "Neurociencia, Desenvolvimento Comportamental, Inteligência Emocional, Carreira, Capacitação"
+      },
+      {
+        "img": "https://static.wixstatic.com/media/cd9c08_1e7ebd14937b4ea6b725820dea5c1f1b~mv2.jpg/v1/fill/w_180,h_210,al_c,q_80,usm_0.66_1.00_0.01/foto%20nancy.webp",
+        "name": "Nancy Lima",
+        "url": "nancylima",
+        "spotlight": "no",
+        "type": "Mestres de Cerimônias",
+        "short_description": "Capacitando pessoas, times e empresas para vencer",
+        "bio": "Capacitando pessoas, times e empresas para vencer\n\nEncontre a solução para você ou sua empresa.\n​\nToda realização nasce de um sonho\n\nTudo começou em 2014 com a necessidade de buscar novas competências profissionais para uma carreira de dezessete anos na área gráfica, como gestora. Procurei por um curso de coaching que me daria técnicas que elevariam meus resultados profissionais. A partir dali percebi que poderia ir além.\nSonhos começaram a surgir.\nDepois de um tempo trabalhando na empresa em que estava e paralelamente como Coach, veio a decisão em 2016, pedi demissão para me dedicar integralmente ao Coaching, e hoje meu sonho se tornou em projetos e\ndele uma nova forma de viver. \nTerminei o MBA em Coaching, fiz uma Pós Graduação em Neurociência e Psicologia Aplicada e hoje estou me graduando em Psicologia. Entendi que precisava ir muito, muito mais além.\nCasada, filha de um Deus vivo, mãe de uma menina linda a Ana Julia, hoje, vivo “Caçando a Excelência” nos meus relacionamentos, na minha vida pessoal e profissional, busco uma nova mentalidade para viver uma vida abundante e como missão fazer com que pessoas se descubram pessoalmente e profissionalmente trazendo descobertas, crescimentos e realizações.\n​\nAlém do coaching de carreira e liderança, dedico parte do meu trabalho no Curso de Inteligência Emocional com ferramentas da Neurociência, Psicologia Positiva e Coaching.\n\nTemas: Neurociencia, Desenvolvimento Comportamental, Inteligência Emocional, Carreira, Capacitação\n\nO ponto inicial do sucesso e da felicidade é assumir o controle da sua vida",
+        "video": "https://youtu.be/TIBXhsq9DRE",
+        "theme": "Neurociencia, Desenvolvimento Comportamental, Inteligência Emocional, Carreira, Capacitação"
+      }
+    ],
+    [
+      {
+        "THEME": "Neurociencia"
+      },
+      {
+        "THEME": "Capacitação"
+      },
+      {
+        "THEME": "Carreira"
+      },
+      {
+        "THEME": "Inteligência Emocional"
+      },
+      {
+        "THEME": "Desenvolvimento Comportamental"
+      }
+    ],
+    [
+      {
+        "TYPES": "Palestrante"
+      },
+      {
+        "TYPES": "Mestres de Cerimônias"
+      }
+    ],
+    [
+      {
+        "SHOW": "yes"
+      },
+      {
+        "SHOW": "no"
+      }
+    ]
   ]
 }

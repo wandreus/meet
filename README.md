@@ -1,12 +1,8 @@
-
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
-
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
-![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
 ## What is inside?
 
-This project uses lot of stuff as:
+Layout made by me with a lot 💖: [layout](https://www.figma.com/file/yM9GzG1HAVTmoKIFX20Nsm/Meet-public?node-id=0%3A1)
 
+This project uses lot of stuff as:
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
 - [Styled Components](https://styled-components.com/)

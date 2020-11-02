@@ -2,6 +2,115 @@ import { createGlobalStyle, css } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
 
+/* vietnamese */
+@font-face {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/epilogue/v2/O4ZRFGj5hxF0EhjimlIrsgg4lWmc8kI.woff2') format('woff2');
+  unicode-range: 'U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB';
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/epilogue/v2/O4ZRFGj5hxF0EhjimlIqsgg4lWmc8kI.woff2') format('woff2');
+  unicode-range: 'U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF';
+}
+/* latin */
+@font-face {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/epilogue/v2/O4ZRFGj5hxF0EhjimlIksgg4lWmc.woff2') format('woff2');
+  unicode-range: 'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD';
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/epilogue/v2/O4ZRFGj5hxF0EhjimlIrsgg4lWmc8kI.woff2') format('woff2');
+  unicode-range:' U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB';
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/epilogue/v2/O4ZRFGj5hxF0EhjimlIqsgg4lWmc8kI.woff2') format('woff2');
+  unicode-range: 'U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF';
+}
+/* latin */
+@font-face {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/epilogue/v2/O4ZRFGj5hxF0EhjimlIksgg4lWmc.woff2') format('woff2');
+  unicode-range: 'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD';
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/epilogue/v2/O4ZRFGj5hxF0EhjimlIrsgg4lWmc8kI.woff2') format('woff2');
+  unicode-range:' U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB';
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/epilogue/v2/O4ZRFGj5hxF0EhjimlIqsgg4lWmc8kI.woff2') format('woff2');
+  unicode-range: 'U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF';
+}
+/* latin */
+@font-face {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/epilogue/v2/O4ZRFGj5hxF0EhjimlIksgg4lWmc.woff2') format('woff2');
+  unicode-range: 'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD';
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/epilogue/v2/O4ZRFGj5hxF0EhjimlIrsgg4lWmc8kI.woff2') format('woff2');
+  unicode-range:' U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;'
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/epilogue/v2/O4ZRFGj5hxF0EhjimlIqsgg4lWmc8kI.woff2') format('woff2');
+  unicode-range: 'U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF';
+}
+/* latin */
+@font-face {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/epilogue/v2/O4ZRFGj5hxF0EhjimlIksgg4lWmc.woff2') format('woff2');
+  unicode-range: 'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD';
+}
+
   ${({ theme }) => css`
     * {
       margin: 0;
@@ -487,6 +596,8 @@ const GlobalStyles = createGlobalStyle`
       }
     }
   `}
+  
+  .slick-list,.slick-slider,.slick-track{position:relative;display:block}.slick-loading .slick-slide,.slick-loading .slick-track{visibility:hidden}.slick-slider{box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:0}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-list,.slick-slider .slick-track{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{top:0;left:0}.slick-track:after,.slick-track:before{display:table;content:''}.slick-track:after{clear:both}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}/*# sourceMappingURL=slick.min.css.map */
 `
 
 export default GlobalStyles

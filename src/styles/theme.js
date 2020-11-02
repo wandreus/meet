@@ -30,5 +30,6 @@ export default {
   border: {
     radius: '3px'
   },
-  transition: '.3s ease-in-out all'
+  transition: '.3s ease-in-out all',
+  shadow: '0px 1px 4px -1px rgba(0, 0, 0, 0.2);'
 }

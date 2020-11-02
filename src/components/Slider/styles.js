@@ -16,4 +16,11 @@ export const Wrapper = styled.div`
       right: 50px;
     }
   }
+
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+  }
 `

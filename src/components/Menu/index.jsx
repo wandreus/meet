@@ -25,15 +25,17 @@ const links = [
 ]
 
 const Menu = () => (
-  <S.Ul>
-    {links.map(({ text, url }, key) => (
-      <S.Li key={key}>
-        <Link href={url}>
-          <a>{text}</a>
-        </Link>
-      </S.Li>
-    ))}
-  </S.Ul>
+  <nav>
+    <S.Ul>
+      {links.map(({ text, url }, key) => (
+        <S.Li key={key}>
+          <Link href={url}>
+            <a>{text}</a>
+          </Link>
+        </S.Li>
+      ))}
+    </S.Ul>
+  </nav>
 )
 
 export default Menu

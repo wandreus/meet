@@ -38,4 +38,32 @@ export const Button = styled.button`
   `}
 `
 
-export const Light = styled.button``
+export const Light = styled.button`
+  ${({ theme }) => css`
+    border: none;
+    appearance: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+
+    svg {
+      path {
+        transition: ${theme.transition};
+        fill: ${theme.colors.$c_blue};
+      }
+    }
+
+    &:hover {
+      svg {
+        path {
+          fill: ${theme.colors.$c_orange};
+        }
+      }
+    }
+
+    &[data-direction='right'] {
+      transform: rotate(180deg);
+    }
+  `}
+`

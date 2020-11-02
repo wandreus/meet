@@ -1,16 +1,17 @@
 import * as S from './styles'
 
+import Container from '../Container'
 import Menu from '../Menu'
 import Logo from '../Logo'
 import SocialNetwork from '../Social'
 
 const Header = () => (
   <S.Header>
-    <S.Container>
+    <Container>
       <Logo />
       <Menu />
       <SocialNetwork />
-    </S.Container>
+    </Container>
   </S.Header>
 )
 

@@ -1,22 +1,19 @@
 import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.section`
-  ${({ theme }) => css`
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: ${theme.grid.container};
-    margin: 0 auto;
-    padding-top: 80px;
-  `}
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 `
 
 export const ColumnLeft = styled.div`
+  padding: 80px 0;
   flex: 1 0 auto;
   max-width: 600px;
 `
 
 export const ColumnRight = styled.div`
+  padding: 80px 0;
   flex: 1 0 auto;
   max-width: 370px;
 
@@ -81,4 +78,33 @@ export const img = styled.div`
   margin: 90px 0 0 auto;
   display: flex;
   justify-content: flex-end;
+`
+
+export const Speakers = styled.section`
+  ${({ theme }) => css`
+    padding: 70px 0;
+    display: block;
+    background: ${theme.colors.$c_background};
+    transform: skewY(-2deg);
+
+    > div {
+      transform: skewY(2deg);
+    }
+
+    h1 {
+      padding-bottom: 70px;
+    }
+  `}
+`
+
+export const Masters = styled.section`
+  ${({ theme }) => css`
+    padding: 70px 0 30px;
+    display: block;
+    background: ${theme.colors.$c_white};
+
+    h1 {
+      padding-bottom: 70px;
+    }
+  `}
 `

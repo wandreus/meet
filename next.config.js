@@ -10,5 +10,8 @@ module.exports = withPWA({
 })
 
 module.exports = {
+  images: {
+    domains: ['via.placeholder.com', 'static.wixstatic.com']
+  },
   trailingSlash: true
 }

@@ -12,11 +12,10 @@ function BannerTv() {
 
   const sliderSettings = {
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     autoplay: true,
     slidesToScroll: 1,
-    lazyLoad: true,
     arrows: false,
     dots: true
   }
@@ -28,12 +27,7 @@ function BannerTv() {
       url: '#'
     },
     {
-      path: '/img/slide-desk-1.png',
-      alt: 'OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA',
-      url: '#'
-    },
-    {
-      path: '/img/slide-desk-1.png',
+      path: '/img/slide-desk-2.png',
       alt: 'OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA',
       url: '#'
     }
@@ -43,7 +37,7 @@ function BannerTv() {
     <S.Wrapper>
       <Arrow
         name="Button"
-        callback={() => customeSlider.current.slickNext()}
+        callback={() => customeSlider.current.slickPrev()}
         data-direction="left"
         className="arrow"
       />
@@ -64,7 +58,7 @@ function BannerTv() {
       </Slider>
       <Arrow
         name="Button"
-        callback={() => customeSlider.current.slickPrev()}
+        callback={() => customeSlider.current.slickNext()}
         data-direction="right"
         className="arrow"
       />

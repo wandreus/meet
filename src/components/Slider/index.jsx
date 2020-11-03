@@ -7,7 +7,7 @@ import Arrow from '../Arrows'
 
 import * as S from './styles'
 
-function BannerTv() {
+function BannerTv({ list: banners }) {
   const customeSlider = createRef()
 
   const sliderSettings = {
@@ -20,23 +20,10 @@ function BannerTv() {
     dots: true
   }
 
-  const banners = [
-    {
-      path: '/img/slide-desk-1.png',
-      alt: 'OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA',
-      url: '#'
-    },
-    {
-      path: '/img/slide-desk-2.png',
-      alt: 'OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA',
-      url: '#'
-    }
-  ]
-
   return (
     <S.Wrapper>
       <Arrow
-        name="Button"
+        Button
         callback={() => customeSlider.current.slickPrev()}
         data-direction="left"
         className="arrow"
@@ -57,7 +44,7 @@ function BannerTv() {
         ))}
       </Slider>
       <Arrow
-        name="Button"
+        Button
         callback={() => customeSlider.current.slickNext()}
         data-direction="right"
         className="arrow"

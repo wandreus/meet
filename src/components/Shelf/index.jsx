@@ -3,7 +3,7 @@ import Slider from 'react-slick'
 
 import Arrow from '../Arrows'
 import Card from '../Card'
-import Button from '../ButtonSeeAll'
+import ButtonAll from '../ButtonSeeAll'
 
 import * as S from './styles'
 
@@ -11,7 +11,7 @@ const Shelf = ({ list, base }) => {
   const customeSlider = createRef()
 
   const limit = 4
-  const verify = list.length > limit
+  const verify = list?.length > limit
 
   const sliderSettings = {
     infinite: true,
@@ -28,7 +28,6 @@ const Shelf = ({ list, base }) => {
       <S.Wrapper>
         {verify && (
           <Arrow
-            name="Light"
             callback={() => customeSlider.current.slickPrev()}
             data-direction="left"
             className="arrow"
@@ -41,7 +40,6 @@ const Shelf = ({ list, base }) => {
         </Slider>
         {verify && (
           <Arrow
-            name="Light"
             callback={() => customeSlider.current.slickNext()}
             data-direction="right"
             className="arrow"
@@ -49,7 +47,7 @@ const Shelf = ({ list, base }) => {
         )}
       </S.Wrapper>
       <S.SeeAll>
-        <Button url={`/${base}/`} />
+        <ButtonAll url={`/${base}/`} />
       </S.SeeAll>
     </>
   )

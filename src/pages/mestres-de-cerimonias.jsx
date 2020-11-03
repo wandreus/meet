@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { palestrantes } from '../../public/palestrantes.json'
+
 import Main from 'components/Main'
 
 export async function getStaticProps() {

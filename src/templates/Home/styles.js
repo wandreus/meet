@@ -1,9 +1,11 @@
 import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.section`
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+  > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 `
 
 export const ColumnLeft = styled.div`

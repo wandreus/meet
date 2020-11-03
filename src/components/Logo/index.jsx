@@ -8,7 +8,7 @@ const Logo = () => (
       <a>
         <Image
           src="/img/logo.png"
-          alt="Logo Marcar Meet Palestrantes"
+          alt="Logo Marcar Meet Palestras"
           width={129}
           height={64}
           priority

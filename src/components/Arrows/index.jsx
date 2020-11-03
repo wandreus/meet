@@ -4,8 +4,6 @@ import * as S from './styles'
 
 function Arrows(props) {
   const callback = props?.callback ? props?.callback : () => ({})
-  const name = props?.name
-  const verify = ['name', 'children', 'callback']
 
   const icon = (
     <svg width="16" height="29">
@@ -13,20 +11,15 @@ function Arrows(props) {
     </svg>
   )
 
-  let newprops = {}
-  Object.keys(props).map((item) => {
-    if (!verify.find((el) => el == item)) newprops[item] = props[item]
-  })
-
   const Button = (
-    <S.Button {...newprops} onClick={(e) => callback(e)}>
+    <S.Button {...props} onClick={(e) => callback(e)}>
       {icon}
     </S.Button>
   )
 
   const Light = (
     <>
-      <S.Light {...newprops} onClick={(e) => callback(e)}>
+      <S.Light {...props} onClick={(e) => callback(e)}>
         {icon}
       </S.Light>
     </>
@@ -36,6 +29,8 @@ function Arrows(props) {
     Button,
     Light
   }
+
+  const [name] = Object.keys(props).filter((item) => templates[item])
 
   return templates[name] ? templates[name] : templates['Light']
 }

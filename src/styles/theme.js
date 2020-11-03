@@ -25,7 +25,9 @@ export default {
     $c_blue: '#001781',
     $c_orange: '#FFB000',
     $c_white: '#FFFFFF',
-    $c_background: '#F5F5F5'
+    $c_background: '#F5F5F5',
+    $c_background_grad:
+      'linear-gradient(180deg, #001781 59.9%, rgba(0, 16, 91, 0.703923) 98.42%, rgba(0, 12, 65, 0.502182) 98.43%, rgba(0, 0, 0, 0) 98.44%), #001781;'
   },
   border: {
     radius: '3px'

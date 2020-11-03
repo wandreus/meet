@@ -17,7 +17,9 @@ export const Button = styled.button`
     box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
 
     &[data-direction='right'] {
-      transform: rotate(180deg);
+      svg {
+        transform: rotate(180deg);
+      }
     }
 
     svg {
@@ -63,7 +65,9 @@ export const Light = styled.button`
     }
 
     &[data-direction='right'] {
-      transform: rotate(180deg);
+      svg {
+        transform: rotate(180deg);
+      }
     }
   `}
 `

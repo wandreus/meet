@@ -7,7 +7,7 @@ const ButtonSeeAll = ({ url }) => (
   <S.Wrapper>
     <Link href={url}>
       <a>
-        <Button name="Small">ver todos</Button>
+        <Button Small>ver todos</Button>
       </a>
     </Link>
   </S.Wrapper>

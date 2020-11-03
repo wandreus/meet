@@ -1,27 +1,31 @@
-import Main from '../components/Main'
-import Home from '../templates/Home'
 import { palestrantes } from '../../public/palestrantes.json'
 
+import Main from '../components/Main'
+import Home from '../templates/Home'
+
 export async function getStaticProps() {
-  const Speakers = palestrantes[0]?.filter(
-    ({ type, spotlight }) => type == 'Palestrante' && spotlight == 'yes'
-  )
-  const Master = palestrantes[0]?.filter(
-    ({ type, spotlight }) =>
-      type == 'Mestres de Cerimônias' && spotlight == 'yes'
-  )
+  const [items, banners] = palestrantes
+
+  const reduce = (name) => {
+    return items?.filter((res) => res?.type == name && res?.spotlight == 'yes')
+  }
+
+  const Speakers = reduce('Palestrante').slice(0, 10)
+  const Master = reduce('Mestres de Cerimônias').slice(0, 10)
 
   return {
     props: {
       Speakers,
-      Master
+      Master,
+      banners
     }
   }
 }
-export default function Index({ Speakers, Master }) {
+
+export default function Index(props) {
   return (
     <Main>
-      <Home prop={{ Speakers, Master }} />
+      <Home {...props} />
     </Main>
   )
 }

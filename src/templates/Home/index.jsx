@@ -8,11 +8,11 @@ import Button from '../../components/Button'
 import Titulo from '../../components/TituloSection'
 import Shelf from '../../components/Shelf'
 
-const Home = ({ prop: { Speakers, Master } }) => (
+const Home = ({ Speakers, Master, banners }) => (
   <>
-    <BannerTv />
-    <Container>
-      <S.Wrapper>
+    <BannerTv list={banners} />
+    <S.Wrapper>
+      <Container>
         <S.ColumnLeft>
           <S.Title>POR ONDE COMEÇAR?</S.Title>
           <S.Highlight>
@@ -52,21 +52,21 @@ const Home = ({ prop: { Speakers, Master } }) => (
           </S.Text>
           <Link href="/contato">
             <a>
-              <Button name="Contact">Entre em contato conosco</Button>
+              <Button Contact>Entre em contato conosco</Button>
             </a>
           </Link>
           <S.img>
             <Image
               src="/img/avatar-home.png"
-              alt="Ilustração -  Mulher e homen sentados pesquisando um palestrante"
+              alt="Ilustração - Mulher e homen sentados pesquisando um palestrante"
               width={346}
               height={258}
               quality="100"
             />
           </S.img>
         </S.ColumnRight>
-      </S.Wrapper>
-    </Container>
+      </Container>
+    </S.Wrapper>
 
     <S.Speakers>
       <Container>

@@ -1,7 +1,7 @@
 import { palestrantes } from '../../../public/palestrantes.json'
 import Main from '../../components/Main'
 
-export async function getStaticProps({ params: { url = '#' } }) {
+export async function getStaticProps({ params: { url } }) {
   const palestrante = palestrantes[0].filter((item) => item.url == url)
 
   return {
@@ -19,15 +19,16 @@ export async function getStaticPaths() {
 }
 
 export default function mestres({
-  palestrante: [{ name = '#', short_description = '#' }]
+  palestrante: [{ name, short_description, bio }]
 }) {
   return (
     <Main>
       <h1>
         Olá eu sou o {name}
         <br />
-        Essas são algumas das minhas Competencias {short_description}
       </h1>
+      <span>Essas são algumas das minhas Competencias {short_description}</span>
+      <p>{bio}</p>
     </Main>
   )
 }

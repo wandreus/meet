@@ -11,7 +11,7 @@ export default {
     bold: '700',
     line: '21px',
     sizes: {
-      xsmal: '12px',
+      xsmall: '12px',
       medium: '14px',
       large: '18px',
       xlarge: '20px',

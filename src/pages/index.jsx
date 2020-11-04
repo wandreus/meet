@@ -1,7 +1,7 @@
 import { palestrantes } from '../../public/palestrantes.json'
 
 import Main from '../components/Main'
-import Home from '../templates/Home'
+import Template from '../templates/Home'
 
 export async function getStaticProps() {
   const [items, banners] = palestrantes
@@ -22,10 +22,10 @@ export async function getStaticProps() {
   }
 }
 
-export default function Index(props) {
+export default function Home(props) {
   return (
     <Main>
-      <Home {...props} />
+      <Template {...props} />
     </Main>
   )
 }

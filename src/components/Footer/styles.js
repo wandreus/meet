@@ -99,7 +99,7 @@ export const Li = styled.li`
 export const Small = styled.small`
   ${({ theme }) => css`
     font-weight: ${theme?.font?.light};
-    font-size: ${theme?.font?.sizes?.xsmal};
+    font-size: ${theme?.font?.sizes?.xsmall};
     display: flex;
     align-items: center;
 
@@ -107,7 +107,7 @@ export const Small = styled.small`
       color: ${theme?.colors?.$c_white};
       transition: ${theme?.transition};
       font-weight: bold;
-      font-size: ${theme?.font?.sizes?.xsmal};
+      font-size: ${theme?.font?.sizes?.xsmall};
       margin-left: 5px;
       text-decoration: underline;
     }

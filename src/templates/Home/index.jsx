@@ -59,6 +59,7 @@ const Home = ({ Speakers, Master, banners }) => (
             <Image
               src="/img/avatar-home.png"
               alt="Ilustração - Mulher e homen sentados pesquisando um palestrante"
+              title="Ilustração - Mulher e homen sentados pesquisando um palestrante"
               width={346}
               height={258}
               quality="100"

@@ -1,9 +1,10 @@
 import Main from 'components/Main'
+import Template from 'templates/QuemSomos'
 
 export default function QuemSomos() {
   return (
     <Main>
-      <h1>Quem Somos</h1>
+      <Template />
     </Main>
   )
 }

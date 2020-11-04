@@ -26,11 +26,11 @@ const links = [
 
 const Menu = () => (
   <nav>
-    <S.Ul>
+    <S.Ul itemscope itemtype="https://schema.org/SiteNavigationElement">
       {links.map(({ text, url }, key) => (
-        <S.Li key={key}>
+        <S.Li key={key} itemprop="name">
           <Link href={url}>
-            <a>{text}</a>
+            <a itemProp="url">{text}</a>
           </Link>
         </S.Li>
       ))}

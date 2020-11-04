@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const Logo = () => (
-  <S.Wrapper>
+  <S.Wrapper itemScope>
     <Link href="/">
       <a>
         <Image
@@ -11,6 +11,7 @@ const Logo = () => (
           alt="Logo Marcar Meet Palestras"
           width={129}
           height={64}
+          itemProp="Brand"
           priority
         />
       </a>

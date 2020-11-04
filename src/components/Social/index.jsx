@@ -1,9 +1,9 @@
 import * as S from './styles'
 
 const SocialNetwork = () => (
-  <S.Ul>
+  <S.Ul itemScope>
     <li>
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a href="#" target="_blank" itemProp="url" rel="noopener noreferrer">
         <svg
           width="20"
           height="21"
@@ -20,7 +20,7 @@ const SocialNetwork = () => (
       </a>
     </li>
     <li>
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a href="#" target="_blank" itemProp="url" rel="noopener noreferrer">
         <svg
           width="20"
           height="21"
@@ -37,7 +37,7 @@ const SocialNetwork = () => (
       </a>
     </li>
     <li>
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a href="#" target="_blank" itemProp="url" rel="noopener noreferrer">
         <svg
           width="20"
           height="21"
@@ -54,7 +54,7 @@ const SocialNetwork = () => (
       </a>
     </li>
     <li>
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a href="#" target="_blank" itemProp="url" rel="noopener noreferrer">
         <svg
           width="20"
           height="21"
@@ -76,7 +76,7 @@ const SocialNetwork = () => (
       </a>
     </li>
     <li>
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a href="#" target="_blank" itemProp="url" rel="noopener noreferrer">
         <svg
           width="20"
           height="21"

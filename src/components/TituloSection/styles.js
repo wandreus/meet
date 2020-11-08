@@ -12,6 +12,7 @@ export const Titulo = styled.h1`
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
 
     &:before,
     &:after {

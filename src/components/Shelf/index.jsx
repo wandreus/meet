@@ -46,9 +46,7 @@ const Shelf = ({ list, base }) => {
           />
         )}
       </S.Wrapper>
-      <S.SeeAll>
-        <ButtonAll url={`/${base}/`} />
-      </S.SeeAll>
+      <S.SeeAll>{base && <ButtonAll url={`/${base}/`} />}</S.SeeAll>
     </>
   )
 }

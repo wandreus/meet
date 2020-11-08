@@ -7,6 +7,8 @@ export const Wrapper = styled.figure`
     background: ${theme.colors.$c_white};
     box-shadow: ${theme.shadow};
     border-radius: ${theme.border.radius};
+    display: flex;
+    flex-wrap: wrap;
   `}
 `
 
@@ -44,6 +46,9 @@ export const Titulo = styled.h2`
 
 export const Figcaption = styled.div`
   padding: 40px 15px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
 `
 
 export const Text = styled.p`
@@ -73,6 +78,8 @@ export const Link = styled.a`
 
     svg {
       margin-left: 10px;
+      transition: ${theme.transition};
+      transform: scale(1);
       path {
         transition: ${theme.transition};
         fill: ${theme.colors.$c_blue};
@@ -82,6 +89,7 @@ export const Link = styled.a`
     &:hover {
       color: ${theme.colors.$c_orange};
       svg {
+        transform: scale(1.5);
         path {
           fill: ${theme.colors.$c_orange};
         }

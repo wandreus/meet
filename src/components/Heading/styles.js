@@ -26,3 +26,12 @@ export const H3 = styled.h3`
     font-weight: normal;
   `}
 `
+
+export const H4 = styled.h4`
+  ${({ theme }) => css`
+    color: ${theme?.colors?.$c_black};
+    line-height: ${theme?.font?.sizes?.medium};
+    font-size: ${theme?.font?.sizes?.medium};
+    font-weight: ${theme?.font?.semibold};
+  `}
+`

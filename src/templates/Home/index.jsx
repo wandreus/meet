@@ -2,11 +2,11 @@ import * as S from './styles'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import Container from '../../components/Container'
-import BannerTv from '../../components/Slider'
-import Button from '../../components/Button'
-import Titulo from '../../components/TituloSection'
-import Shelf from '../../components/Shelf'
+import Container from 'components/Container'
+import BannerTv from 'components/Slider'
+import Button from 'components/Button'
+import Titulo from 'components/TituloSection'
+import Shelf from 'components/Shelf'
 
 const Home = ({ Speakers, Master, banners }) => (
   <>

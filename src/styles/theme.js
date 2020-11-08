@@ -30,7 +30,8 @@ export default {
       'linear-gradient(180deg, #001781 59.9%, rgba(0, 16, 91, 0.703923) 98.42%, rgba(0, 12, 65, 0.502182) 98.43%, rgba(0, 0, 0, 0) 98.44%), #001781;'
   },
   border: {
-    radius: '3px'
+    radius: '3px',
+    solid: '1px solid rgba(0, 0, 0, 0.15);'
   },
   transition: '.3s ease-in-out all',
   shadow: '0px 1px 4px -1px rgba(0, 0, 0, 0.2);'

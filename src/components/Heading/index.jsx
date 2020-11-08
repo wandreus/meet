@@ -8,12 +8,15 @@ function Heading(props) {
 
   const H2 = <S.H2 {...props}>{children}</S.H2>
 
-  const H3 = <S.H2 {...props}>{children}</S.H2>
+  const H3 = <S.H3 {...props}>{children}</S.H3>
+
+  const H4 = <S.H4 {...props}>{children}</S.H4>
 
   const templates = {
     H1,
     H2,
-    H3
+    H3,
+    H4
   }
 
   const [name] = Object.keys(props).filter((item) => templates[item])

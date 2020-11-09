@@ -1,9 +1,9 @@
 import Main from 'components/Main'
-
+import Template from 'templates/Contato'
 export default function Contato() {
   return (
     <Main>
-      <h1>Contato</h1>
+      <Template />
     </Main>
   )
 }

@@ -1,8 +1,18 @@
 import { palestrantes } from '../../../public/palestrantes.json'
 import Main from '../../components/Main'
+import Template from '../../templates/Page'
 
 export async function getStaticProps({ params: { url } }) {
-  const palestrante = palestrantes[0].filter((item) => item.url == url)
+  const [speakers] = palestrantes
+  const filter = speakers.filter((item) => item?.url == url)
+  const [palestrante] = filter.map((item) => {
+    const regex = /^https:\/\/(www.)?youtu[\\.]?be(\.com)?\/(watch\?v=)?(\w+)/gim
+    const video = item.video?.replace(regex, ($1, $2, $3, $4, $5) => $5)
+    const theme = item.theme?.split(',').map((res) => ` #${res.trim()}`)
+    const bread =
+      item?.type == 'Palestrante' ? '/palestrantes' : '/mestres-de-cerimonias'
+    return [{ ...item, video, theme, bread }]
+  })
 
   return {
     props: {
@@ -12,23 +22,17 @@ export async function getStaticProps({ params: { url } }) {
 }
 
 export async function getStaticPaths() {
-  const paths = palestrantes[0].map((item) => ({
+  const [speakers] = palestrantes
+  const paths = speakers.map((item) => ({
     params: { url: item.url }
   }))
   return { paths, fallback: false }
 }
 
-export default function mestres({
-  palestrante: [{ name, short_description, bio }]
-}) {
+export default function Page(props) {
   return (
     <Main>
-      <h1>
-        Olá eu sou o {name}
-        <br />
-      </h1>
-      <span>Essas são algumas das minhas Competencias {short_description}</span>
-      <p>{bio}</p>
+      <Template {...props} />
     </Main>
   )
 }

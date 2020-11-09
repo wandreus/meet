@@ -118,6 +118,7 @@ const GlobalStyles = createGlobalStyle`
       box-sizing: border-box;
       outline: none;
       font-family: ${theme.font.family};
+      font-display: block;
     }
 
     /* http://meyerweb.com/eric/tools/css/reset/

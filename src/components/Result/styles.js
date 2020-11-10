@@ -7,6 +7,12 @@ export const Wrapper = styled.div`
 
   > figure {
     margin-bottom: 45px;
+
+    @media (max-width: 900px) {
+      width: 100%;
+      max-width: 49%;
+      margin-bottom: 2%;
+    }
   }
 
   &:empty {
@@ -18,6 +24,10 @@ export const Wrapper = styled.div`
       content: 'Nenhum resultado para sua combinação';
       display: block;
     }
+  }
+
+  @media (max-width: 900px) {
+    padding-bottom: 30px;
   }
 `
 

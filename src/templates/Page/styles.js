@@ -1,26 +1,35 @@
 import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.div`
-  ${({ theme }) => css``}
+  > div > h1 {
+    margin: 20px 0 5px;
+
+    @media (max-width: 900px) {
+      padding: 0 10px;
+    }
+  }
 `
 
 export const Body = styled.section`
-  ${({ theme }) => css`
-    display: flex;
-    justify-content: space-between;
-  `}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @media (max-width: 900px) {
+    flex-direction: column-reverse;
+  }
 `
 
 export const ColumnLeft = styled.div`
-  ${({ theme }) => css`
-    flex: 1 0 auto;
-    max-width: 770px;
-    display: block;
+  flex: 1 0 auto;
+  max-width: 770px;
+  display: block;
 
-    > h1 {
-      margin: 20px 0 5px;
-    }
-  `}
+  @media (max-width: 900px) {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+  }
 `
 
 export const Bio = styled.p`
@@ -58,6 +67,16 @@ export const ColumnRight = styled.div`
   max-width: 290px;
   display: block;
 
+  @media (max-width: 900px) {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+
+    button {
+      margin: 10px auto 10px;
+    }
+  }
+
   > div {
     width: 100%;
   }
@@ -70,6 +89,7 @@ export const ColumnRight = styled.div`
     padding-bottom: 20px;
     border-bottom: ${({ theme }) => theme.border.solid};
   }
+
   img {
     width: 100%;
   }

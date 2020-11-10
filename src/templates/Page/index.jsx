@@ -21,9 +21,9 @@ const PageTemplate = ({ palestrante }) => {
             </>
           }
         />
+        <Titulo H1>{name}</Titulo>
         <S.Body>
           <S.ColumnLeft>
-            <Titulo H1>{name}</Titulo>
             <S.Bio>{bio}</S.Bio>
             <S.Theme>
               <Titulo H2>TEMAS:</Titulo>

@@ -7,4 +7,8 @@ export const Wrapper = styled.div`
   h1 {
     margin: 5px 0 10px;
   }
+
+  @media (max-width: 900px) {
+    padding-left: 10px;
+  }
 `

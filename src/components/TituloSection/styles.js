@@ -14,6 +14,12 @@ export const Titulo = styled.h1`
     align-items: center;
     text-transform: uppercase;
 
+    @media (max-width: 900px) {
+      text-align: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
     &:before,
     &:after {
       content: '';
@@ -25,14 +31,21 @@ export const Titulo = styled.h1`
 
       @media (max-width: 900px) {
         max-width: 50px;
+        margin: auto;
       }
     }
 
     &:before {
+      @media (max-width: 900px) {
+        margin-right: auto;
+      }
       margin-right: 50px;
     }
 
     &:after {
+      @media (max-width: 900px) {
+        margin-left: auto;
+      }
       margin-left: 50px;
     }
   `}

@@ -8,7 +8,7 @@ export const Wrapper = styled.section`
     top: calc(50% - 27.5px);
     z-index: 1;
 
-    @media (max-width: 900px) {
+    @media (max-width: 680px) {
       display: none;
     }
 
@@ -32,7 +32,7 @@ export const Wrapper = styled.section`
     display: none;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 680px) {
     .mobile {
       display: block;
     }

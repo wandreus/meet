@@ -3,6 +3,9 @@ import styled, { css } from 'styled-components'
 export const Spotlight = styled.div`
   h1 {
     margin-top: 45px;
+    @media (max-width: 900px) {
+      padding: 0 10px;
+    }
   }
 
   h3 {
@@ -23,6 +26,10 @@ export const Body = styled.div`
     h3 {
       text-align: center;
       margin: 30px 0 10px;
+    }
+
+    @media (max-width: 900px) {
+      padding: 0 10px 40px;
     }
   `}
 `

@@ -42,6 +42,24 @@ const Shelf = ({ list, base }) => {
           centerPadding: '60px',
           slidesToShow: 1
         }
+      },
+      {
+        breakpoint: 360,
+        settings: {
+          centerMode: true,
+          infinite: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          centerMode: true,
+          infinite: true,
+          centerPadding: '30px',
+          slidesToShow: 1
+        }
       }
     ]
   }

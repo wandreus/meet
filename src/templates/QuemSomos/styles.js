@@ -13,5 +13,8 @@ export const body = styled.main`
       text-align: justify;
       margin-bottom: 10px;
     }
+    @media (max-width: 900px) {
+      padding: 15px 10px;
+    }
   `}
 `

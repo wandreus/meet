@@ -121,6 +121,7 @@ export const img = styled.div`
   margin: 90px 0 0 auto;
   display: flex;
   justify-content: flex-end;
+  max-width: 100%;
 
   @media (max-width: 900px) {
     margin: 15px auto 40px;

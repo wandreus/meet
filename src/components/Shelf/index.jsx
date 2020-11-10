@@ -20,7 +20,30 @@ const Shelf = ({ list, base }) => {
     autoplay: true,
     slidesToScroll: 1,
     arrows: false,
-    dots: true
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          centerMode: true,
+          infinite: true,
+          centerPadding: '60px',
+          slidesToShow: 1
+        }
+      }
+    ]
   }
 
   return (

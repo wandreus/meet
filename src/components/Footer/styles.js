@@ -10,12 +10,24 @@ export const Footer = styled.footer`
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
+      flex-direction: row;
+
+      @media (max-width: 900px) {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
     }
   `}
 `
 
 export const Contact = styled.div`
   text-align: left;
+
+  @media (max-width: 900px) {
+    text-align: center;
+  }
+
   svg {
     margin-right: 10px;
   }
@@ -24,6 +36,10 @@ export const Contact = styled.div`
 export const Brand = styled.div`
   text-align: center;
   max-width: 270px;
+
+  @media (max-width: 900px) {
+    order: -1;
+  }
 
   > div {
     margin: 0 auto;
@@ -53,8 +69,17 @@ export const Disclaimer = styled.section`
 
 export const Social = styled.div`
   text-align: right;
+
+  @media (max-width: 900px) {
+    text-align: center;
+  }
+
   ul {
     margin-left: auto;
+
+    @media (max-width: 900px) {
+      margin: auto;
+    }
   }
 `
 
@@ -62,6 +87,11 @@ export const Title = styled.h2`
   font-size: ${({ theme }) => theme?.font?.sizes?.large};
   text-transform: uppercase;
   margin-bottom: 30px;
+
+  @media (max-width: 900px) {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
 `
 
 export const Ul = styled.ul``

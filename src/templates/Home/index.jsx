@@ -16,7 +16,8 @@ const Home = ({ Speakers, Master, banners }) => (
         <S.ColumnLeft>
           <S.Title>POR ONDE COMEÇAR?</S.Title>
           <S.Highlight>
-            Como escolher o <em>Palestrante</em> Ideal
+            Como escolher o <br />
+            <em>Palestrante</em> Ideal
           </S.Highlight>
           <S.SubTitle>Lorem Ipsum é simplesmente</S.SubTitle>
           <S.Text>

@@ -5,6 +5,14 @@ export const Wrapper = styled.section`
     display: flex;
     justify-content: space-between;
     width: 100%;
+    flex-direction: row;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
   }
 `
 
@@ -12,20 +20,38 @@ export const ColumnLeft = styled.div`
   padding: 80px 0;
   flex: 1 0 auto;
   max-width: 600px;
+
+  @media (max-width: 900px) {
+    padding: 30px 0 0;
+    max-width: 100%;
+  }
 `
 
 export const ColumnRight = styled.div`
   padding: 80px 0;
   flex: 1 0 auto;
   max-width: 370px;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 900px) {
+    padding: 30px 0;
+    max-width: 100%;
+  }
 
   h2 {
     margin-bottom: 20px;
     text-align: right;
+    @media (max-width: 900px) {
+      text-align: center;
+    }
   }
 
   button {
     margin-left: auto;
+    @media (max-width: 900px) {
+      margin: 15px auto;
+    }
   }
 `
 
@@ -35,6 +61,10 @@ export const Title = styled.h2`
     font-size: ${theme.font.sizes.xlarge};
     color: ${theme.colors.$c_black_light};
     font-weight: normal;
+
+    @media (max-width: 900px) {
+      text-align: center;
+    }
   `}
 `
 
@@ -46,6 +76,12 @@ export const Highlight = styled.h1`
     line-height: 68px;
     margin-top: 20px;
     margin-bottom: 65px;
+    @media (max-width: 900px) {
+      margin-bottom: 30px;
+      font-size: 40px;
+      line-height: 41px;
+      text-align: center;
+    }
 
     em {
       font-style: normal;
@@ -60,6 +96,11 @@ export const SubTitle = styled.h3`
     color: ${theme.colors.$c_blue};
     font-weight: ${theme.font.semibold};
     margin-bottom: 25px;
+
+    @media (max-width: 900px) {
+      margin-bottom: 10px;
+      text-align: center;
+    }
   `}
 `
 
@@ -80,6 +121,11 @@ export const img = styled.div`
   margin: 90px 0 0 auto;
   display: flex;
   justify-content: flex-end;
+
+  @media (max-width: 900px) {
+    margin: 15px auto 40px;
+    order: -1;
+  }
 `
 
 export const Speakers = styled.section`

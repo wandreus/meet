@@ -25,7 +25,7 @@ const links = [
 ]
 
 const Menu = () => (
-  <nav>
+  <S.Nav>
     <S.Ul itemscope itemtype="https://schema.org/SiteNavigationElement">
       {links.map(({ text, url }, key) => (
         <S.Li key={key} itemprop="name">
@@ -35,7 +35,7 @@ const Menu = () => (
         </S.Li>
       ))}
     </S.Ul>
-  </nav>
+  </S.Nav>
 )
 
 export default Menu

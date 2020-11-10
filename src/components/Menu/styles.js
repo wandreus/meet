@@ -1,9 +1,25 @@
 import styled, { css } from 'styled-components'
 
+export const Nav = styled.nav`
+  margin: auto;
+
+  @media (max-width: 900px) {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: ${({ theme }) => theme.border.solid};
+  }
+`
+
 export const Ul = styled.ul`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `
 
 export const Li = styled.li`
@@ -12,6 +28,10 @@ export const Li = styled.li`
     justify-content: flex-start;
     align-items: center;
     padding: 0 15px;
+
+    @media (max-width: 900px) {
+      padding: 10px 0;
+    }
 
     &:first-child {
       padding-left: 0;

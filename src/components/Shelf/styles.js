@@ -13,6 +13,10 @@ export const Wrapper = styled.div`
       top: calc(40% - 15px);
       z-index: 1;
 
+      @media (max-width: 900px) {
+        display: none;
+      }
+
       &[data-direction='left'] {
         left: 0;
       }

@@ -22,6 +22,10 @@ export const Titulo = styled.h1`
       height: 2px;
       width: 165px;
       flex: 1 0 auto;
+
+      @media (max-width: 900px) {
+        max-width: 50px;
+      }
     }
 
     &:before {

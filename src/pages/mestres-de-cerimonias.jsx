@@ -1,7 +1,7 @@
 import { palestrantes } from '../../public/palestrantes.json'
 
-import Main from '../components/Main'
-import Template from '../templates/MestreDeCerimonia'
+import Main from 'components/Main'
+import Template from 'templates/MestreDeCerimonia'
 
 export async function getStaticProps() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -25,7 +25,7 @@ export async function getStaticProps() {
   }
 }
 
-export default function Home(props) {
+export default function MasterPage(props) {
   return (
     <Main>
       <Template {...props} />

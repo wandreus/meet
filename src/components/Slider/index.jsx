@@ -28,17 +28,20 @@ function BannerTv({ list: banners }) {
         data-direction="left"
         className="arrow"
       />
-      <Slider {...sliderSettings} ref={customeSlider}>
-        {banners.map(({ path, alt, url }, key) => (
+      <Slider className="desk" {...sliderSettings} ref={customeSlider}>
+        {banners.map(({ desk, alt, url }, key) => (
           <Link href={url} key={key}>
             <a>
-              <Image
-                src={path}
-                alt={alt}
-                width={1920}
-                height={470}
-                unoptimized
-              />
+              <Image src={desk} alt={alt} width={1920} height={470} />
+            </a>
+          </Link>
+        ))}
+      </Slider>
+      <Slider className="mobile" {...sliderSettings} ref={customeSlider}>
+        {banners.map(({ mobile, alt, url }, key) => (
+          <Link href={url} key={key}>
+            <a>
+              <Image src={mobile} alt={alt} unsized />
             </a>
           </Link>
         ))}

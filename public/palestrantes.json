@@ -1456,14 +1456,16 @@
     ],
     [
       {
-        "path": "/img/slide-desk-1.png",
+        "desk": "/img/slide-desk-1.png",
+        "mobile": "/img/slide-mobile-1.png",
         "alt": "OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA",
-        "url": "#"
+        "url": "/mestres-de-cerimonias"
       },
       {
-        "path": "/img/slide-desk-2.png",
+        "desk": "/img/slide-desk-2.png",
+        "mobile": "/img/slide-mobile-2.png",
         "alt": "OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA",
-        "url": "#"
+        "url": "/palestrantes"
       }
     ],
     [
@@ -1481,9 +1483,6 @@
       },
       {
         "THEME": "Desenvolvimento Comportamental"
-      },
-      {
-        "THEME": "Front-end"
       }
     ],
     [

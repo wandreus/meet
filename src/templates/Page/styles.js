@@ -3,10 +3,6 @@ import styled, { css } from 'styled-components'
 export const Wrapper = styled.div`
   > div > h1 {
     margin: 20px 0 5px;
-
-    @media (max-width: 900px) {
-      padding: 0 10px;
-    }
   }
 `
 
@@ -28,7 +24,7 @@ export const ColumnLeft = styled.div`
   @media (max-width: 900px) {
     max-width: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
   }
 `
 
@@ -70,7 +66,7 @@ export const ColumnRight = styled.div`
   @media (max-width: 900px) {
     max-width: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
 
     button {
       margin: 10px auto 10px;

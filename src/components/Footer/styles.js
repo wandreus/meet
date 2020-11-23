@@ -5,6 +5,7 @@ export const Footer = styled.footer`
     padding: 35px 0;
     background: ${theme?.colors?.$c_background_grad};
     color: ${theme?.colors?.$c_white};
+    position: relative;
 
     > div {
       display: flex;
@@ -36,6 +37,11 @@ export const Contact = styled.div`
 export const Brand = styled.div`
   text-align: center;
   max-width: 270px;
+
+  img {
+    display: block;
+    margin: auto;
+  }
 
   @media (max-width: 900px) {
     order: -1;

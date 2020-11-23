@@ -121,6 +121,12 @@ const GlobalStyles = createGlobalStyle`
       font-display: block;
     }
 
+    html body {
+      @media (max-width: 900px) {
+        margin-top: 75px;
+      }
+    }
+
     /* http://meyerweb.com/eric/tools/css/reset/
       v2.0-modified | 20110126
       License: none (public domain)

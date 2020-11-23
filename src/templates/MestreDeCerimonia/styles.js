@@ -8,6 +8,12 @@ export const Spotlight = styled.div`
     }
   }
 
+  @media (max-width: 900px) {
+    > div {
+      padding: 0;
+    }
+  }
+
   h3 {
     text-align: center;
     margin: 15px 0 30px;
@@ -29,7 +35,7 @@ export const Body = styled.div`
     }
 
     @media (max-width: 900px) {
-      padding: 0 10px 40px;
+      padding: 0 0 40px;
     }
   `}
 `

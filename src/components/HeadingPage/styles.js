@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   display: inline-block;
@@ -6,9 +6,5 @@ export const Wrapper = styled.div`
   padding-right: 15px;
   h1 {
     margin: 5px 0 10px;
-  }
-
-  @media (max-width: 900px) {
-    padding-left: 10px;
   }
 `

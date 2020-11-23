@@ -1,5 +1,4 @@
 import * as S from './styles'
-import Image from 'next/image'
 import Link from 'next/link'
 
 const Card = ({ item }) => {
@@ -12,14 +11,13 @@ const Card = ({ item }) => {
       <S.Img>
         <Link href={url}>
           <S.Link itemProp="url">
-            <Image
+            <img
               src={item?.img}
               width={245}
               height={286}
               alt={item?.name}
               title={item?.name}
               itemProp="photo"
-              unoptimized
             />
           </S.Link>
         </Link>

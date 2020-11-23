@@ -1,6 +1,5 @@
 import * as S from './styles'
 import Link from 'next/link'
-import Image from 'next/image'
 
 import Container from 'components/Container'
 import BannerTv from 'components/Slider'
@@ -57,13 +56,12 @@ const Home = ({ Speakers, Master, banners }) => (
             </a>
           </Link>
           <S.img>
-            <Image
+            <img
               src="/img/avatar-home.png"
               alt="Ilustração - Mulher e homen sentados pesquisando um palestrante"
               title="Ilustração - Mulher e homen sentados pesquisando um palestrante"
               width={346}
               height={258}
-              quality="100"
             />
           </S.img>
         </S.ColumnRight>

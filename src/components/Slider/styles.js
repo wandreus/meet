@@ -39,10 +39,10 @@ export const Wrapper = styled.section`
     .desk {
       display: none;
     }
-
-    img {
-      width: 100%;
-      height: auto;
-    }
+    width: 100%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 `

@@ -65,7 +65,9 @@ const Result = ({ list: { Speakers, themes } }) => {
           <Card item={item} key={key} />
         ))}
       </S.Wrapper>
-      {showButton && <ButtonAll callback={(e) => viewMore(e)} />}
+      {showButton && (
+        <ButtonAll callback={(e) => viewMore(e)}>ver todos</ButtonAll>
+      )}
     </>
   )
 }

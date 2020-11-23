@@ -12,7 +12,7 @@ const ButtonSeeAll = (props) => {
       <S.Wrapper>
         <Link href={url}>
           <a onClick={(e) => callback(e)}>
-            <Button Small>ver todos</Button>
+            <Button Small>{props?.children}</Button>
           </a>
         </Link>
       </S.Wrapper>

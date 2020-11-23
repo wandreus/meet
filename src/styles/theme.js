@@ -1,6 +1,6 @@
 export default {
   grid: {
-    container: '1100px'
+    container: '1120px'
   },
   font: {
     family:
@@ -13,6 +13,7 @@ export default {
     sizes: {
       xsmall: '12px',
       medium: '14px',
+      xmedium: '15px',
       large: '18px',
       xlarge: '20px',
       xxlarge: '22px',

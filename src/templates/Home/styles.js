@@ -53,6 +53,10 @@ export const ColumnRight = styled.div`
       margin: 15px auto;
     }
   }
+
+  p {
+    max-width: 370px;
+  }
 `
 
 export const Title = styled.h2`
@@ -138,6 +142,10 @@ export const Speakers = styled.section`
 
     > div {
       transform: skewY(2deg);
+
+      @media (max-width: 900px) {
+        padding: 0;
+      }
     }
 
     h1 {
@@ -154,6 +162,12 @@ export const Masters = styled.section`
 
     h1 {
       padding-bottom: 70px;
+    }
+
+    > div {
+      @media (max-width: 900px) {
+        padding: 0;
+      }
     }
   `}
 `

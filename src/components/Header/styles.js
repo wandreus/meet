@@ -3,8 +3,16 @@ import styled, { css } from 'styled-components'
 export const Header = styled.header`
   padding: 5px 0;
   box-shadow: ${({ theme }) => theme.shadow};
+  background: ${({ theme }) => theme.colors.$c_white};
   position: relative;
   z-index: 2;
+
+  @media (max-width: 900px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 
   > div {
     display: flex;
@@ -29,16 +37,22 @@ export const ContainerNav = styled.div`
       flex-direction: column;
       position: absolute;
       right: 0;
+      width: 100vw;
       top: 0;
       padding: 10px;
       background: ${theme.colors.$c_white};
       overflow: hidden;
       max-height: 69px;
+      min-height: 0vh;
       transition: ${theme.transition};
       box-shadow: 0px transparent;
 
+      nav {
+        padding-top: 15px;
+      }
+
       &.js-open {
-        max-height: 300px;
+        min-height: 100vh;
         box-shadow: ${theme.shadow};
 
         .icon {
@@ -54,6 +68,29 @@ export const ContainerNav = styled.div`
 
           &:before {
             transform: rotate(-45deg);
+          }
+        }
+      }
+
+      > ul {
+        @media (max-width: 900px) {
+          flex-wrap: wrap;
+          max-width: 250px;
+
+          &:before {
+            width: 100%;
+            content: 'redes sociais';
+            color: ${theme.colors.$c_black};
+            font-size: ${theme.font.sizes.large};
+            font-weight: ${theme.font.bold};
+            display: block;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+          }
+
+          svg {
+            width: 35px;
+            height: auto;
           }
         }
       }

@@ -39,7 +39,7 @@ const PageTemplate = ({ palestrante }) => {
             ></S.VideoPlay>
           </S.ColumnLeft>
           <S.ColumnRight>
-            <Avatar src={img} unsized unoptimized />
+            <Avatar src={img} title={`foto de perfil do ${type} ${name}`} />
             <Titulo H3>{short_description}</Titulo>
             <Link href={`/contato/?profile=${name}`}>
               <a title={name}>

@@ -5,8 +5,12 @@ export const Nav = styled.nav`
 
   @media (max-width: 900px) {
     margin-bottom: 20px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     border-bottom: ${({ theme }) => theme.border.solid};
+    width: 100%;
+    margin: 0;
+    display: flex;
+    height: calc(100vh - 250px);
   }
 `
 
@@ -19,6 +23,7 @@ export const Ul = styled.ul`
   @media (max-width: 900px) {
     flex-direction: column;
     align-items: flex-start;
+    padding-bottom: 40px;
   }
 `
 
@@ -30,7 +35,7 @@ export const Li = styled.li`
     padding: 0 15px;
 
     @media (max-width: 900px) {
-      padding: 10px 0;
+      padding: 0px;
     }
 
     &:first-child {
@@ -42,11 +47,15 @@ export const Li = styled.li`
     }
 
     a {
-      font-size: 15px;
+      font-size: ${theme.font.sizes.xmedium};
       font-weight: ${theme.font.semibold};
       color: ${theme.colors.$c_black};
       text-decoration: none;
       transition: ${theme.transition};
+
+      @media (max-width: 900px) {
+        font-size: ${theme.font.sizes.large};
+      }
 
       &:hover {
         color: ${theme.colors.$c_orange};

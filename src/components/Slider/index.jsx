@@ -1,6 +1,5 @@
 import React, { createRef } from 'react'
 import Slider from 'react-slick'
-import Image from 'next/image'
 import Link from 'next/link'
 
 import Arrow from '../Arrows'
@@ -29,19 +28,19 @@ function BannerTv({ list: banners }) {
         className="arrow"
       />
       <Slider className="desk" {...sliderSettings} ref={customeSlider}>
-        {banners.map(({ desk, alt, url }, key) => (
+        {banners?.map(({ desk, alt, url }, key) => (
           <Link href={url} key={key}>
             <a>
-              <Image src={desk} alt={alt} width={1920} height={470} />
+              <img src={desk} alt={alt} width={1920} height={470} />
             </a>
           </Link>
         ))}
       </Slider>
-      <Slider className="mobile" {...sliderSettings} ref={customeSlider}>
-        {banners.map(({ mobile, alt, url }, key) => (
+      <Slider className="mobile" {...sliderSettings}>
+        {banners?.map(({ mobile, alt, url }, key) => (
           <Link href={url} key={key}>
             <a>
-              <Image src={mobile} alt={alt} unsized />
+              <img src={mobile} alt={alt} />
             </a>
           </Link>
         ))}

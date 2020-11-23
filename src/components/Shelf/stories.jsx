@@ -2,7 +2,7 @@ import Shelf from '.'
 import { palestrantes } from '../../../public/palestrantes.json'
 
 export default {
-  title: 'Shelf',
+  title: 'Carousel Speakers',
   component: Shelf
 }
 

@@ -1,8 +1,11 @@
 import ButtonSeeAll from '.'
 
 export default {
-  title: 'ButtonSeeAll',
-  component: ButtonSeeAll
+  title: 'Button section',
+  component: ButtonSeeAll,
+  args: {
+    label: 'Label'
+  }
 }
 
-export const Default = () => <ButtonSeeAll />
+export const Default = ({ label }) => <ButtonSeeAll>{label}</ButtonSeeAll>

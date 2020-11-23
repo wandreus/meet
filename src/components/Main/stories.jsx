@@ -1,18 +1,25 @@
 import Main from '.'
+import Container from 'components/Container'
+import HeadingPage from 'components/HeadingPage'
 
 export default {
   title: 'Main',
   component: Main,
   args: {
-    title: 'title default',
-    description: 'description default'
+    bread: 'home',
+    title: 'Title your page'
   }
 }
 
-export const Basic = (args) => <Main {...args} />
-Basic.args = {
-  title: 'title basic',
-  description: 'description basic'
+export const Default = ({ bread, title }) => {
+  const breadcrumb = bread.split(',')?.map((item, i) => <a key={i}>{item}</a>)
+  return (
+    <Main>
+      <Container>
+        <HeadingPage breadcrumb={breadcrumb}>{title}</HeadingPage>
+      </Container>
+    </Main>
+  )
 }
 
-export const Default = (args) => <Main {...args} />
+export const Basic = () => <Main />

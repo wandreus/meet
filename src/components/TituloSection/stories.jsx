@@ -1,14 +1,11 @@
 import TituloSection from '.'
 
 export default {
-  title: 'TituloSection',
+  title: 'Title Section',
   component: TituloSection,
   args: {
-    children: 'Texto'
+    Label: 'Text your title'
   }
 }
 
-export const Default = (args) => <TituloSection>{args.children}</TituloSection>
-Default.args = {
-  children: 'title basic'
-}
+export const Default = ({ Label }) => <TituloSection>{Label}</TituloSection>

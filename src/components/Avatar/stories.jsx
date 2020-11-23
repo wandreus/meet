@@ -5,4 +5,6 @@ export default {
   component: Avatar
 }
 
-export const Default = () => <Avatar />
+export const Default = () => (
+  <Avatar src="https://via.placeholder.com/245x286" />
+)

@@ -3,13 +3,20 @@ import Arrows from '.'
 export default {
   title: 'Arrows',
   component: Arrows,
-  args: {
-    direction: 'left'
+  argTypes: {
+    direction: {
+      control: {
+        type: 'select',
+        options: ['left', 'right']
+      }
+    }
   }
 }
 
-export const Button = (args) => (
-  <Arrows name="Button" data-direction={args.direction} />
+export const Button = (argTypes) => (
+  <Arrows Button data-direction={argTypes.direction} />
 )
 
-export const Light = (args) => <Arrows data-direction={args.direction} />
+export const Light = (argTypes) => (
+  <Arrows data-direction={argTypes.direction} />
+)

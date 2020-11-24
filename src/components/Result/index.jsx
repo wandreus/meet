@@ -29,12 +29,10 @@ const Result = ({ list: { Speakers, themes } }) => {
 
     if (currentTarget.checked == false) return setResult(Speakers.slice(0, 12))
 
-    setResult((use) => {
-      return use
-        .filter(({ theme }) => {
-          return theme.find((item) => item.trim() == value)?.length
-        })
-        .sort((a, b) => a?.name - b?.name)
+    setResult(() => {
+      return Speakers.filter(({ theme }) => {
+        return theme.find((item) => item.trim() == value)?.length
+      }).sort((a, b) => a?.name - b?.name)
     })
   }
 

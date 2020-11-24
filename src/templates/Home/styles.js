@@ -12,6 +12,7 @@ export const Wrapper = styled.section`
       align-items: flex-start;
       padding-right: 10px;
       padding-left: 10px;
+      justify-content: center;
     }
   }
 `
@@ -37,6 +38,7 @@ export const ColumnRight = styled.div`
   @media (max-width: 900px) {
     padding: 30px 0;
     max-width: 100%;
+    width: 100%;
   }
 
   h2 {

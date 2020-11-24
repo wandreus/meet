@@ -46,14 +46,16 @@ export const ContainerNav = styled.div`
       min-height: 0vh;
       transition: ${theme.transition};
       box-shadow: 0px transparent;
+      border-bottom: 4px solid transparent;
 
       nav {
         padding-top: 15px;
       }
 
       &.js-open {
-        min-height: 100vh;
+        min-height: 75vh;
         box-shadow: ${theme.shadow};
+        border-bottom: 4px solid ${theme.colors.$c_blue};
 
         .icon {
           background: transparent;
@@ -75,7 +77,7 @@ export const ContainerNav = styled.div`
       > ul {
         @media (max-width: 900px) {
           flex-wrap: wrap;
-          max-width: 250px;
+          max-width: 160px;
 
           &:before {
             width: 100%;
@@ -86,11 +88,6 @@ export const ContainerNav = styled.div`
             display: block;
             text-transform: uppercase;
             margin-bottom: 15px;
-          }
-
-          svg {
-            width: 35px;
-            height: auto;
           }
         }
       }

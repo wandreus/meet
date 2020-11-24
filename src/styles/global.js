@@ -650,20 +650,28 @@ const GlobalStyles = createGlobalStyle`
 }
 
 .slick-track {
-    position: relative;
-    top: 0;
-    left: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  &:empty {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
 
-    display: block;
-}
-.slick-track:before,
-.slick-track:after {
-    display: table;
+    &:before {
+      content: 'Nenhum destaque cadastrado';
+    }
 
-    content: '';
-}
-.slick-track:after {
-    clear: both;
+  }
+  &:before,
+  &:after {
+      display: table;
+      content: '';
+  }
+  &:after {
+      clear: both;
+  }
 }
 .slick-loading .slick-track {
     visibility: hidden;

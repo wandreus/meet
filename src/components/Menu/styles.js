@@ -5,7 +5,6 @@ export const Nav = styled.nav`
 
   @media (max-width: 900px) {
     margin-bottom: 20px;
-    /* padding-bottom: 10px; */
     border-bottom: ${({ theme }) => theme.border.solid};
     width: 100%;
     margin: 0;
@@ -23,7 +22,7 @@ export const Ul = styled.ul`
   @media (max-width: 900px) {
     flex-direction: column;
     align-items: flex-start;
-    padding-bottom: 40px;
+    padding: 40px 0;
   }
 `
 
@@ -54,7 +53,7 @@ export const Li = styled.li`
       transition: ${theme.transition};
 
       @media (max-width: 900px) {
-        font-size: ${theme.font.sizes.large};
+        /* font-size: ${theme.font.sizes.large}; */
       }
 
       &:hover {

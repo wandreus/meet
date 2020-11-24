@@ -2,16 +2,21 @@ import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  padding-bottom: 40px;
+
+  @media (max-width: 900px) {
+    justify-content: space-between;
+  }
 
   > figure {
-    margin-bottom: 45px;
+    margin: 15px;
 
     @media (max-width: 900px) {
       width: 100%;
       max-width: 49%;
-      margin-bottom: 2%;
+      margin: 0 0 2%;
     }
   }
 
@@ -25,10 +30,6 @@ export const Wrapper = styled.div`
       display: block;
     }
   }
-
-  @media (max-width: 900px) {
-    padding-bottom: 30px;
-  }
 `
 
 export const filtro = styled.ul`
@@ -36,6 +37,11 @@ export const filtro = styled.ul`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-left: 15px;
+
+  @media (max-width: 900px) {
+    padding-left: 0;
+  }
 `
 
 export const item = styled.li`

@@ -119,6 +119,7 @@ export const Themes = styled.span`
     color: ${theme.colors.$c_orange};
     margin-top: 3px;
     display: block;
+    word-break: break-word;
   `}
 `
 

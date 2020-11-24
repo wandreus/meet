@@ -10,7 +10,7 @@ export const Nav = styled.nav`
     width: 100%;
     margin: 0;
     display: flex;
-    height: calc(100vh - 250px);
+    height: calc(100vh - 350px);
   }
 `
 

@@ -6,7 +6,7 @@ export const Wrapper = styled.a`
   bottom: 25%;
   cursor: pointer;
   display: flex;
-  max-width: 40px;
+  max-width: 41px;
   justify-content: flex-end;
 
   @media (max-width: 900px) {
@@ -20,7 +20,7 @@ export const Wrapper = styled.a`
   }
 
   svg {
-    min-width: 40px;
+    min-width: 41px;
   }
 `
 

@@ -43,6 +43,7 @@ export const Wrapper = styled.section`
   }
   img {
     max-width: 100%;
+    width: 100%;
     height: auto;
   }
 `

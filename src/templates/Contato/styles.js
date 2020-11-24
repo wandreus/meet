@@ -57,6 +57,10 @@ export const Title = styled.h2`
     font-weight: ${theme.font.bold};
     margin-bottom: 15px;
     text-transform: uppercase;
+
+    @media (max-width: 900px) {
+      text-align: center;
+    }
   `}
 `
 

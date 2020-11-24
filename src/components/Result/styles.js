@@ -35,11 +35,12 @@ export const Wrapper = styled.div`
 export const filtro = styled.ul`
   flex-wrap: wrap;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   padding-left: 15px;
 
   @media (max-width: 900px) {
+    justify-content: flex-start;
     padding-left: 0;
   }
 `

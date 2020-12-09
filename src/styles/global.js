@@ -262,6 +262,10 @@ const GlobalStyles = createGlobalStyle`
       content: none;
     }
 
+    em {
+      font-style: normal;
+    }
+
     table {
       border-collapse: collapse;
       border-spacing: 0;

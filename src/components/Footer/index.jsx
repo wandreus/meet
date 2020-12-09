@@ -6,8 +6,8 @@ import Whats from 'components/Whats'
 const Footer = ({
   about = 'Nossos Contatos',
   email = 'comercial@meetpalestras.com.br',
-  phone = '+55 11 5050-8080 | +55 11 6060-9090',
-  bio = 'Lorem Ipsum é simplesmente uma simulação de texto da indústria Lorem Ipsum é simplesmente.',
+  phone = '+55 11 97227-9606 | 99839-6847 +55 11 2359-9998 | 30970688',
+  bio = 'Motivar, Estimular, Emocionar e Transformar',
   social = 'redes sociais'
 }) => (
   <>

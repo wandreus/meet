@@ -24,6 +24,7 @@ export const Footer = styled.footer`
 
 export const Contact = styled.div`
   text-align: left;
+  max-width: 255px;
 
   @media (max-width: 900px) {
     text-align: center;
@@ -31,6 +32,7 @@ export const Contact = styled.div`
 
   svg {
     margin-right: 10px;
+    min-width: 20px;
   }
 `
 
@@ -108,6 +110,7 @@ export const Li = styled.li`
     align-items: center;
     font-size: ${theme?.font?.sizes?.medium};
     margin-bottom: 15px;
+    line-height: ${theme?.font?.line};
 
     &:last-child {
       margin-bottom: 0;

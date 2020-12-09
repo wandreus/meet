@@ -16,7 +16,7 @@ export async function getStaticProps({ params: { url } }) {
 
   const [palestrante] = Profile.map((item) => {
     const regex = /^https:\/\/(www.)?youtu[\\.]?be(\.com)?\/(watch\?v=)?(\w+)/gim
-    const video = item.video?.replace(regex, (...props) => props[4])
+    const video = item?.video?.replace(regex, (...props) => props[4]) || null
     const theme = item.theme?.split(',').map((res) => ` #${res.trim()}`)
     const bread =
       item?.type == 'Palestrante' ? '/palestrantes' : '/mestres-de-cerimonias'

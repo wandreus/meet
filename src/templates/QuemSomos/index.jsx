@@ -9,32 +9,26 @@ const QuemSomos = () => (
       <HeadingPage breadcrumb={<a href="/">home</a>}>Quem Somos</HeadingPage>
       <S.body>
         <p>
-          Lorem Ipsum é simplesmente uma simulação de texto da indústria
-          tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
-          quando um impressor desconhecido pegou uma bandeja de tipos e os
-          embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum
-          sobreviveu não só a cinco séculos, como também ao salto para a
-          editoração eletrônica, permanecendo essencialmente inalterado. Se
-          popularizou na década de 60, quando a Letraset lançou decalques
-          contendo passagens de Lorem Ipsum, e mais recentemente quando passou a
-          ser integrado a softwares de editoração eletrônica como Aldus
-          PageMaker. Lorem Ipsum é simplesmente uma simulação de texto da
-          indústria tipográfica e de impressos, e vem sendo utilizado desde o
-          século XV
+          A <em>Meet Palestras</em> surgiu da experiência de mercado e da
+          vontade de empreender. <br />
+          Acreditamos no aprimoramento das corporações, através de{' '}
+          <em>palestras</em>, treinamento e workshops. <br />
+          Nossa equipe está disponível para levar no seu evento o{' '}
+          <em>Palestrante</em>, MC, Mediador com o perfil desejado, buscando
+          Inspirar, Motivar, Capacitar, Provocar e Engajar seu público e
+          clientes. <br />
+          Os eventos podem ser Presenciais, Online e Híbridos, buscando
+          atualmente práticas mais assertivas.
         </p>
         <br></br>
         <Heading H2>Nossa Missão</Heading>
         <p>
-          Lorem Ipsum é simplesmente uma simulação de texto da indústria
-          tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
-          quando um impressor desconhecido pegou uma bandeja de tipos e os
-          embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum
-          sobreviveu não só a cinco séculos, como também ao salto para a
-          editoração eletrônica, permanecendo essencialmente inalterado. Se
-          popularizou na década de 60, quando a Letraset lançou decalques
-          contendo passagens de Lorem Ipsum, e mais recentemente quando passou a
-          ser integrado a softwares de editoração eletrônica como Aldus
-          PageMaker.
+          A Meet Palestra quer levar mais conhecimento e satisfação para o seu
+          evento! <br />
+          Buscamos sempre entregar ao público, conteúdos relevantes e atuais,
+          visando a melhor negociação para que você tenha em seu evento o
+          profissional de sua preferência. <br />
+          Atender bem aos clientes e parceiros é o nosso objetivo.
         </p>
       </S.body>
     </Container>

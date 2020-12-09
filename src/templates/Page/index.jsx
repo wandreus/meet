@@ -29,14 +29,16 @@ const PageTemplate = ({ palestrante }) => {
               <Titulo H2>TEMAS:</Titulo>
               {theme}
             </S.Theme>
-            <S.VideoPlay
-              width="100%"
-              height="435"
-              src={`https://www.youtube.com/embed/${video}`}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; sameorigin;"
-              allowFullScreen
-            ></S.VideoPlay>
+            {video && (
+              <S.VideoPlay
+                width="100%"
+                height="435"
+                src={`https://www.youtube.com/embed/${video}`}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; sameorigin;"
+                allowFullScreen
+              ></S.VideoPlay>
+            )}
           </S.ColumnLeft>
           <S.ColumnRight>
             <Avatar src={img} title={`foto de perfil do ${type} ${name}`} />

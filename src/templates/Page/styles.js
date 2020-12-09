@@ -51,6 +51,9 @@ export const Theme = styled.div`
     h2 {
       margin-right: 10px;
     }
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
   `}
 `
 
@@ -62,6 +65,10 @@ export const ColumnRight = styled.div`
   flex: 1 0 auto;
   max-width: 290px;
   display: block;
+
+  button {
+    margin-bottom: 50px;
+  }
 
   @media (max-width: 900px) {
     max-width: 100%;

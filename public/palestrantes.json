@@ -1,72 +1,174 @@
 {
   "palestrantes": [
-  [
-    {
-      "img": "https://static.wixstatic.com/media/cd9c08_1e7ebd14937b4ea6b725820dea5c1f1b~mv2.jpg/v1/fill/w_180,h_210,al_c,q_80,usm_0.66_1.00_0.01/foto%20nancy.webp",
-      "name": "Nancy Lima",
-      "url": "nancylima",
-      "spotlight": "no",
-      "type": "Palestrante",
-      "short_description": "Capacitando pessoas, times e empresas para vencer",
-      "bio": "Capacitando pessoas, times e empresas para vencer\n\nEncontre a solução para você ou sua empresa.\n​\nToda realização nasce de um sonho.\nTudo começou em 2014 com a necessidade de buscar novas competências profissionais para uma carreira de dezessete anos na área gráfica, como gestora. Procurei por um curso de coaching que me daria técnicas que elevariam meus resultados profissionais. A partir dali percebi que poderia ir além.\nSonhos começaram a surgir.\nDepois de um tempo trabalhando na empresa em que estava e paralelamente como Coach, veio a decisão em 2016, pedi demissão para me dedicar integralmente ao Coaching, e hoje meu sonho se tornou em projetos e\ndele uma nova forma de viver.\nTerminei o MBA em Coaching, fiz uma Pós Graduação em Neurociência e Psicologia Aplicada e hoje estou me graduando em Psicologia. Entendi que precisava ir muito, muito mais além.\nCasada, filha de um Deus vivo, mãe de uma menina linda a Ana Julia, hoje, vivo “Caçando a Excelência” nos meus relacionamentos, na minha vida pessoal e profissional, busco uma nova mentalidade para viver uma vida abundante e como missão fazer com que pessoas se descubram pessoalmente e profissionalmente trazendo descobertas, crescimentos e realizações.\n​\nAlém do coaching de carreira e liderança, dedico parte do meu trabalho no Curso de Inteligência Emocional com ferramentas da Neurociência, Psicologia Positiva e Coaching.\n\nTemas: Neurociencia, Desenvolvimento Comportamental, Inteligência Emocional, Carreira, Capacitação\n\nO ponto inicial do sucesso e da felicidade é assumir o controle da sua vida",
-      "video": "https://youtu.be/TIBXhsq9DRE",
-      "theme": "Neurociencia, Desenvolvimento Comportamental, Inteligência Emocional, Carreira, Capacitação"
-    },
-    {
-      "img": "https://jornalempresasenegocios.com.br/wp-content/uploads/2019/09/Marcelo-Salvo_temporario.jpg",
-      "name": "Marcelo Salvo",
-      "url": "marcelosalvo",
-      "spotlight": "no",
-      "type": "Palestrante",
-      "short_description": "Entender o comportamento do consumidor e entregar soluções!",
-      "bio": "Marcelo Salvo, é administrador de empresas, formado em artes cênicas, graduado em Recursos Humanos, pós graduado em gestão de marketing e negociação e vendas pela FAAP. Marcelo Salvo trabalhou em empresas multinacionais e familiares e ganhou know-how e diferenciação pela sua facilidade de inovação, criatividade e persistência. A Atitude Profissional empresa voltada para capacitação e desenvolvimento humano, utiliza metodologias e ferramentas que unem teorias e práticas, em um contexto lúdico envolvido por Jogos de empresas, teatrais e vivências. Direciona seus objetivos para o aprendizado sustentável, transformando conhecimentos e habilidades com interligações e exemplos de suas experiencias de mais de 30 anos em vendas e mais de 20 anos em liderança. A Atitude Profissional acredita que seu sucesso é reflexo do resultado positivo dos seus clientes. Cada conteúdo criado envolve temas de extrema importância na transformação de cada participante, assuntos que resgatam dentro de cada um, o seu melhor. Se quer mudar algo em sua equipe de liderança, vendas e relacionamento com o cliente, conte conosco para: Aumentar o interesse dos participantes com jogos e dinâmicas Fomentar reflexões e questionamentos positivos Gerar mudanças e transformações Fomentar o autoconhecimento e autodesenvolvimento Aproximar a teoria da prática Estimular o trabalho em equipe e pensamento sistêmico Proporcionar importante aprendizagem sustentável Melhorar a comunicação das equipes Gerar compromisso e engajamento com a empresa Melhorar os resultados",
-      "video": "https://youtu.be/F8K1CQniU5s",
-      "theme": "Vendas e Negócios, Comunicação, Tempo e Produtividade, Inovação, Storytelling, Liderança, Relacionamento, Empreendedorismo, Marketing"
-    }
-  ],
-  [
-    {
-      "desk": "/img/slide-desk-1.png",
-      "mobile": "/img/slide-mobile-1.png",
-      "alt": "OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA",
-      "url": "/mestres-de-cerimonias"
-    },
-    {
-      "desk": "/img/slide-desk-2.png",
-      "mobile": "/img/slide-mobile-2.png",
-      "alt": "OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA",
-      "url": "/palestrantes"
-    }
-  ],
-  [
-    {
-      "THEME": "Neurociencia"
-    },
-    {
-      "THEME": "Capacitação"
-    },
-    {
-      "THEME": "Storytelling"
-    },
-    {
-      "THEME": "Vendas e Negócios"
-    }
-  ],
-  [
-    {
-      "TYPES": "Palestrante"
-    },
-    {
-      "TYPES": "Mestres de Cerimônias"
-    }
-  ],
-  [
-    {
-      "SHOW": "yes"
-    },
-    {
-      "SHOW": "no"
-    }
+    [
+      {
+        "img": "https://static.wixstatic.com/media/cd9c08_1e7ebd14937b4ea6b725820dea5c1f1b~mv2.jpg/v1/fill/w_180,h_210,al_c,q_80,usm_0.66_1.00_0.01/foto%20nancy.webp",
+        "name": "Nancy Lima",
+        "url": "nancylima",
+        "spotlight": "no",
+        "type": "Palestrante",
+        "short_description": "Capacitando pessoas, times e empresas para vencer",
+        "bio": "Capacitando pessoas, times e empresas para vencer\n\nEncontre a solução para você ou sua empresa.\n​\nToda realização nasce de um sonho.\nTudo começou em 2014 com a necessidade de buscar novas competências profissionais para uma carreira de dezessete anos na área gráfica, como gestora. Procurei por um curso de coaching que me daria técnicas que elevariam meus resultados profissionais. A partir dali percebi que poderia ir além.\nSonhos começaram a surgir.\nDepois de um tempo trabalhando na empresa em que estava e paralelamente como Coach, veio a decisão em 2016, pedi demissão para me dedicar integralmente ao Coaching, e hoje meu sonho se tornou em projetos e\ndele uma nova forma de viver.\nTerminei o MBA em Coaching, fiz uma Pós Graduação em Neurociência e Psicologia Aplicada e hoje estou me graduando em Psicologia. Entendi que precisava ir muito, muito mais além.\nCasada, filha de um Deus vivo, mãe de uma menina linda a Ana Julia, hoje, vivo “Caçando a Excelência” nos meus relacionamentos, na minha vida pessoal e profissional, busco uma nova mentalidade para viver uma vida abundante e como missão fazer com que pessoas se descubram pessoalmente e profissionalmente trazendo descobertas, crescimentos e realizações.\n​\nAlém do coaching de carreira e liderança, dedico parte do meu trabalho no Curso de Inteligência Emocional com ferramentas da Neurociência, Psicologia Positiva e Coaching.\n\nTemas: Neurociencia, Desenvolvimento Comportamental, Inteligência Emocional, Carreira, Capacitação\n\nO ponto inicial do sucesso e da felicidade é assumir o controle da sua vida",
+        "video": "https://youtu.be/TIBXhsq9DRE",
+        "theme": "Neurociencia, Desenvolvimento Comportamental, Inteligência Emocional, Carreira, Capacitação"
+      },
+      {
+        "img": "https://jornalempresasenegocios.com.br/wp-content/uploads/2019/09/Marcelo-Salvo_temporario.jpg",
+        "name": "Marcelo Salvo",
+        "url": "marcelosalvo",
+        "spotlight": "no",
+        "type": "Palestrante",
+        "short_description": "Entender o comportamento do consumidor e entregar soluções!",
+        "bio": "Marcelo Salvo, é administrador de empresas, formado em artes cênicas, graduado em Recursos Humanos, pós graduado em gestão de marketing e negociação e vendas pela FAAP. Marcelo Salvo trabalhou em empresas multinacionais e familiares e ganhou know-how e diferenciação pela sua facilidade de inovação, criatividade e persistência. A Atitude Profissional empresa voltada para capacitação e desenvolvimento humano, utiliza metodologias e ferramentas que unem teorias e práticas, em um contexto lúdico envolvido por Jogos de empresas, teatrais e vivências. Direciona seus objetivos para o aprendizado sustentável, transformando conhecimentos e habilidades com interligações e exemplos de suas experiencias de mais de 30 anos em vendas e mais de 20 anos em liderança. A Atitude Profissional acredita que seu sucesso é reflexo do resultado positivo dos seus clientes. Cada conteúdo criado envolve temas de extrema importância na transformação de cada participante, assuntos que resgatam dentro de cada um, o seu melhor. Se quer mudar algo em sua equipe de liderança, vendas e relacionamento com o cliente, conte conosco para: Aumentar o interesse dos participantes com jogos e dinâmicas Fomentar reflexões e questionamentos positivos Gerar mudanças e transformações Fomentar o autoconhecimento e autodesenvolvimento Aproximar a teoria da prática Estimular o trabalho em equipe e pensamento sistêmico Proporcionar importante aprendizagem sustentável Melhorar a comunicação das equipes Gerar compromisso e engajamento com a empresa Melhorar os resultados",
+        "video": "https://youtu.be/F8K1CQniU5s",
+        "theme": "Vendas e Negócios, Comunicação, Tempo e Produtividade, Inovação, Storytelling, Liderança, Relacionamento, Empreendedorismo, Marketing"
+      },
+      {
+        "img": "data:image/jpeg;base64,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",
+        "name": "Alexandre Lacava",
+        "url": "alexandrelacava",
+        "spotlight": "no",
+        "type": "Palestrante",
+        "short_description": "Especialista em vendas de idéias, produtos ou serviços, negociações, excelencia no atendimento e liderança",
+        "bio": "Segurança para seu evento, mais de 10.000 horas palestrando e treinando profissionais nas áreas de negócios.\n\nEmociona pela  fala conecta pela mente e provoca atitude pela expansão da consciência das pessoas.\n\nVersatilidade na comunicação. Larga experiência como executivo em empresas nacionais e multinacionais. Por mais de 14 anos ocupou cargos de liderança nas áreas de negócios.\n\n\"Muito mais do que simplesmente transmitir informação, as palestras, treinamentos e programas de coaching devem permitir a construção de conhecimentos e o desenvolvimento de habilidades e comportamentos por meio de situações voltadas para a percepção, experimentação, insights e vivências.Nossas palestras, treinamentos e  mentorias foram desenhados  cuidadosamente para que líderes,  gestores, equipes e colaboradores  possam superar os desafios atuais e  aproveitarem as potencialidades deste  novo contextoe organizações e as pessoas são cada vez mais solicitadas a trabalhar remotamente\nEsta é uma tendência  mundial que explodiu com a pandemia do  COVID-19. O ambiente online ao mesmo  tempo que agrega enormes  potencialidades para a colaboração entre  pessoas e times, também presenta  novos e específicos desafios.\n \"",
+        "theme": "Vendas, Liderança, Negociações, Excelência, PNL"
+      },
+      {
+        "img": "data:image/jpeg;base64,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",
+        "name": "Alexandre Prates ",
+        "url": "alexandreprates",
+        "spotlight": "no",
+        "type": "Palestrante",
+        "short_description": "Saiba como o Alê Prates pode ajudar a sua empresa a alcançar resultados.",
+        "bio": "Em 2020 completou 12 anos de atuação no mercado de educação executiva, somando mais de 700 apresentações em todo o território nacional, impactando mais de 1.000.000 pessoas.\n\nUm educador executivo, apaixonado por engajamento, liderança e resultados. Após atuação como executivo em grandes empresas brasileiras, fundou em 2008 o Instituto de Coaching Aplicado, o ICA, com sede em São Paulo, possuindo\n\nMais 2.000 horas de atuação em sessões individuais, destacando em sua carteira de clientes personalidades como: Denilson, penta campeão e comentarista de futebol; Junior Cigano, campeão mundial do UFC, Bruno Soares, um dos melhores tenistas de duplas do mundo; Muricy Ramalho, ex-técnico de futebol; Virna Dias, medalhista olímpica; além de mais de 2000 líderes formados em todo o País. Em 2018 foi premiado como personalidade do ano de RH pela ABTD e conquistou o prêmio de TOP 5 do CBTD 2018.",
+        "theme": "Não Negocie com a Preguiça! A Reivenção dom Profissional, A Liderança além dos números, Engajamento, Técnicas de vendas (PNL)"
+      },
+      {
+        "img": "data:image/jpeg;base64,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",
+        "name": "Andrea Iorio",
+        "url": "andreaiorio",
+        "spotlight": "no",
+        "type": "Palestrante",
+        "short_description": "Andrea Iorio é palestrante e escritor best-seller. Já foi Diretor do Tinder e CDO na L’Oréal. Aborda temas como Transformação Digital, Liderança, Vendas e Foco no Cliente.",
+        "bio": "Andrea Iorio é palestrante e escritor best-seller. Já foi Diretor do Tinder e CDO na L’Oréal. Aborda temas como Transformação Digital, Liderança, Vendas e Foco no Cliente. Italiano radicado no Brasil, o Andrea hoje é uma das maiores referências nacionais em transformação digital, liderança e inovação no país.\n\nTem mais de 10 anos de experiência em multinacionais de tecnologia: foi Diretor do Tinder na América Latina e Chief Digital Officer da L’Oréal. É  graduado em economia pela Universidade Bocconi, em Milão (Itália), tem Mestrado em Relações Internacionais pela Universidade Johns Hopkins, em Washington (EUA), e ministra aulas no MBA da Fundação Dom Cabral.Andrea Iorio acredita que o coração da transformação digital está no ser humano, em sua própria transformação individual. \n\nPor isso, ele compartilha reflexões e provocações na interseção de negócio, filosofia e psicologia de forma única com seus mais de 55 mil seguidores no LinkedIn, no seu podcast Metanoia Lab – que está no top 100 mais ouvidos de Negócio no Brasil – e em suas mais de 80 palestras por ano, fomentando o desenvolvimento de profissionais e negócios de diversos setores e tamanhos. É também  autor dos livros “6 Competências da Transformação Digital” e “O Futuro não è mais como Antigamente”.Ambos alcançaram o número 1 entre os mais vendidos na Amazon na área de Gestão de Pessoas e Liderança.É professor de MBA da Fundação Dom Cabral nas disciplinas “Digital Mindset e New Capabilities”.\n \n\n \n",
+        "theme": "Competências da Transformação Digital, Os 3 Segredos do Marketing Invisível, Os novos traços do líder em um mundo imprevisivél e digital, Liderança Digital, Competências para otimizar suas vendas na Transformação Digital, Como se Relacionar com o Cliente em um Mundo 4.0?\n\n\n\n\n"
+      }
+    ],
+    [
+      {
+        "desk": "/img/slide-desk-1.png",
+        "mobile": "/img/slide-mobile-1.png",
+        "alt": "OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA",
+        "url": "/mestres-de-cerimonias"
+      },
+      {
+        "desk": "/img/slide-desk-2.png",
+        "mobile": "/img/slide-mobile-2.png",
+        "alt": "OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA",
+        "url": "/palestrantes"
+      }
+    ],
+    [
+      {
+        "THEME": "Agronegócios"
+      },
+      {
+        "THEME": "Comunicação e Marketing"
+      },
+      {
+        "THEME": "Ética"
+      },
+      {
+        "THEME": "Educação"
+      },
+      {
+        "THEME": "Economia e Finanças"
+      },
+      {
+        "THEME": "Empreendedorismo"
+      },
+      {
+        "THEME": "Empoderamento Feminino"
+      },
+      {
+        "THEME": "Gestão"
+      },
+      {
+        "THEME": "Liderança"
+      },
+      {
+        "THEME": "Inovação e Criatividade"
+      },
+      {
+        "THEME": "Motivação"
+      },
+      {
+        "THEME": "Planejamento Estratégico"
+      },
+      {
+        "THEME": "Politica e Atualidades"
+      },
+      {
+        "THEME": "Saúde/ Bem Estar / Qualidade de vida"
+      },
+      {
+        "THEME": "Superação"
+      },
+      {
+        "THEME": "Sustentabilidade / Economia Criativa / Futurismo"
+      },
+      {
+        "THEME": "Vendas / Atendimento/ Varejo"
+      },
+      {
+        "THEME": "Cases de Sucesso"
+      },
+      {
+        "THEME": "Cooperativismo"
+      },
+      {
+        "THEME": "Felicidade / Família"
+      },
+      {
+        "THEME": "Gastronomia"
+      },
+      {
+        "THEME": "Humor"
+      },
+      {
+        "THEME": "Jornalismo"
+      },
+      {
+        "THEME": "Neurociência / Comportamento Humano / Inteligência Emocional"
+      },
+      {
+        "THEME": "Sipat / Segurança do Trabalho"
+      },
+      {
+        "THEME": "Mudanças / Gerações"
+      },
+      {
+        "THEME": "Transformação Digital / Tecnologia / Indústria 4.0"
+      },
+      {
+        "THEME": "Neurolinguistica / Neuromarketing / PNL"
+      }
+    ],
+    [
+      {
+        "TYPES": "Palestrante"
+      },
+      {
+        "TYPES": "Mestres de Cerimônias"
+      }
+    ],
+    [
+      {
+        "SHOW": "yes"
+      },
+      {
+        "SHOW": "no"
+      }
+    ]
   ]
-]
 }

@@ -18,25 +18,20 @@ const Home = ({ Speakers, Master, banners }) => (
             Como escolher o <br />
             <em>Palestrante</em> Ideal
           </S.Highlight>
-          <S.SubTitle>Lorem Ipsum é simplesmente</S.SubTitle>
+          <S.SubTitle>A Meet Palestras promove a capacitação</S.SubTitle>
           <S.Text>
             <p>
-              Lorem Ipsum é simplesmente uma simulação de texto da indústria
-              tipográfica e de impressos, e vem sendo utilizado desde o século
-              XVI, quando um impressor desconhecido pegou uma bandeja de tipos e
-              os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum
-              sobreviveu não só a cinco séculos, como também ao salto para a
-              editoração eletrônica, permanecendo essencialmente inalterado. Se
-              popularizou na década de 60, quando a Letraset lançou decalques
-              contendo passagens de Lorem Ipsum, e mais recentemente quando
-              passou a ser integrado a softwares de editoração eletrônica como
-              Aldus PageMaker.
+              Nós da Meet realizamos uma busca qualificada pelos
+              <em> palestrante</em> com o perfil do seu evento, A Meet sabe que
+              sua empresa e equipe precisam de resultados, com conteúdo e
+              performance.
             </p>
             <p>
-              Lorem Ipsum é simplesmente uma simulação de texto da indústria
-              tipográfica e de impressos, e vem sendo utilizado desde o século
-              XVI, quando um impressor desconhecido pegou uma bandeja de tipos e
-              os embaralhou para fazer um livro de modelos de tipos.
+              Estamos preparados para sugerir e indicar o <em>palestrante</em>
+              ideal .
+              <br />
+              Nós queremos Motivar, Estimular, Emocionar e Transformar o seu
+              evento.
             </p>
           </S.Text>
         </S.ColumnLeft>
@@ -45,9 +40,8 @@ const Home = ({ Speakers, Master, banners }) => (
           <S.Title>A MEET VAI TE AJUDAR</S.Title>
           <S.Text>
             <p>
-              Lorem Ipsum é simplesmente uma simulação de texto da indústria
-              tipográfica e de impressos, e vem sendo utilizado desde o século
-              XVI, quando um impressor desconhecido.
+              A Meet quer agilizar seu processo de contratação, atendendo sua
+              necessidade com competência.
             </p>
           </S.Text>
           <Link href="/contato">

@@ -8,7 +8,7 @@ export async function getStaticProps() {
   const [items, banner, themes] = palestrantes
   const format = items
     .map((item) => {
-      const theme = item.theme.split(',')
+      const theme = item?.theme?.split(',') || []
       return { ...item, theme }
     })
     .sort((a, b) => a?.name - b?.name)

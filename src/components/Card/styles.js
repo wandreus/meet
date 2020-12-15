@@ -75,6 +75,8 @@ export const Link = styled.a`
     justify-content: flex-start;
     align-items: center;
     cursor: pointer;
+    max-height: 300px;
+    overflow: hidden;
 
     svg {
       margin-left: 10px;

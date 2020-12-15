@@ -25,10 +25,12 @@ const PageTemplate = ({ palestrante }) => {
         <S.Body>
           <S.ColumnLeft>
             <S.Bio>{bio}</S.Bio>
-            <S.Theme>
-              <Titulo H2>TEMAS:</Titulo>
-              {theme}
-            </S.Theme>
+            {!!theme.length && (
+              <S.Theme>
+                <Titulo H2>TEMAS:</Titulo>
+                {theme}
+              </S.Theme>
+            )}
             {video && (
               <S.VideoPlay
                 width="100%"

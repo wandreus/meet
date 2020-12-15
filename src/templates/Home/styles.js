@@ -120,6 +120,10 @@ export const Text = styled.div`
     p {
       margin-bottom: 15px;
     }
+
+    @media (max-width: 900px) {
+      text-align: center;
+    }
   `}
 `
 

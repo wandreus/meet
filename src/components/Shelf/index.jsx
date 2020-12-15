@@ -14,7 +14,7 @@ const Shelf = ({ list, base }) => {
   const verify = list?.length > limit
 
   const sliderSettings = {
-    infinite: true,
+    infinite: false,
     speed: 1000,
     slidesToShow: limit,
     autoplay: true,

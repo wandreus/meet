@@ -34,7 +34,7 @@ export const Bio = styled.p`
     line-height: ${theme.font.line};
     font-size: ${theme.font.sizes.medium};
     white-space: break-spaces;
-    text-align: justify;
+    text-align: left;
   `}
 `
 
@@ -67,7 +67,7 @@ export const ColumnRight = styled.div`
   display: block;
 
   button {
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
   }
 
   @media (max-width: 900px) {

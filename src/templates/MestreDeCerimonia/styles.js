@@ -22,7 +22,6 @@ export const Spotlight = styled.div`
 
 export const Body = styled.div`
   ${({ theme }) => css`
-    background: ${theme?.colors?.$c_background};
     padding-bottom: 40px;
 
     h1 {

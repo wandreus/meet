@@ -10,7 +10,11 @@ export const body = styled.main`
     font-size: ${theme?.font?.sizes?.medium};
 
     p {
-      text-align: justify;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+
+    h2 {
       margin-bottom: 10px;
     }
   `}

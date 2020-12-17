@@ -78,6 +78,7 @@ export const ContainerNav = styled.div`
         @media (max-width: 900px) {
           flex-wrap: wrap;
           max-width: 160px;
+          justify-content: flex-start;
 
           &:before {
             width: 100%;

@@ -91,8 +91,7 @@
         "spotlight": "yes",
         "type": "Mestres de Cerimônias",
         "short_description": "Renata jábali é formada em Administração de Empresas pela Fundação Getúlio Vargas - FGV/SP",
-        "bio": "Renata jábali é formada em Administração de Empresas pela Fundação Getúlio Vargas - FGV/SP,\n​\nem Tradução (ing/esp>brpt) pela Brasillis Idiomas,\n​\ne Pós-graduada em Neurociências e  Comportamento pela PUC/RS.\n \nComeçou sua carreira como apresentadora e locutora em vídeos institucionais e acabou por se especializar na atuação como mestre de cerimônias e moderadora de debates  em português e inglês para eventos corporativos internacionais. Também apresenta solenidades com presença de autoridades governamentais, observando o protocolo e o cerimonial exigidos nestas ocasiões. \n \nAo longo dos anos, construiu uma carreira sólida, e seu ponto forte é a credibilidade que entrega em suas gravações, apresentações e entrevistas, mantendo sempre o sorriso e a leveza - características da sua personalidade.\n \nConquistou clientes nacionais e internacionais de diversos setores da economia, trabalhando no Brasil e também em países como: Estados Unidos, México e Espanha.\n",
-        "video": "CYT copy.mp4;  Abertura CxO_final.mp4"
+        "bio": "Renata jábali é formada em Administração de Empresas pela Fundação Getúlio Vargas - FGV/SP,\n​\nem Tradução (ing/esp>brpt) pela Brasillis Idiomas,\n​\ne Pós-graduada em Neurociências e  Comportamento pela PUC/RS.\n \nComeçou sua carreira como apresentadora e locutora em vídeos institucionais e acabou por se especializar na atuação como mestre de cerimônias e moderadora de debates  em português e inglês para eventos corporativos internacionais. Também apresenta solenidades com presença de autoridades governamentais, observando o protocolo e o cerimonial exigidos nestas ocasiões. \n \nAo longo dos anos, construiu uma carreira sólida, e seu ponto forte é a credibilidade que entrega em suas gravações, apresentações e entrevistas, mantendo sempre o sorriso e a leveza - características da sua personalidade.\n \nConquistou clientes nacionais e internacionais de diversos setores da economia, trabalhando no Brasil e também em países como: Estados Unidos, México e Espanha.\n"
       },
       {
         "img": "https://www.bobfloriano.com.br/wp-content/uploads/2015/11/qme.png",
@@ -276,7 +275,7 @@
         "img": "http://woody.com.br/new/wp-content/uploads/2018/03/foto_woody.jpg",
         "name": "Woody",
         "url": "woody",
-        "spotlight": "no",
+        "spotlight": "yes",
         "type": "Mestres de Cerimônias",
         "short_description": "À frente de seu próprio programa de televisão, Woody Show, veiculado pelo SBT de Jaú, consolidou-se como apresentador divertido, simpático e espirituoso. Atualmente está no ar todos os dias como apresentador da Polishop, mostrando aos telespectadores que a alegria e o bom humor são os combustíveis perfeitos para se alcançar objetivos.",
         "bio": "Formação\r\nFormado em Educação Física e pós-graduado em Recreação, trabalhou como professor e como recreador em hotéis fazenda no estado de São Paulo.\r\nSua formação acadêmica e seu trabalho como recreador aprimoraram sua habilidade nata de se comunicar com as pessoas de forma descontraída e espirituosa.\r\nEm 1983, foi aprovado no teste para um comercial de televisão e passou a trabalhar paralelamente como ator publicitário.\r\nEm 1989, quando se tornou apresentador do TV Card, primeiro programa ao vivo de venda direta da TV brasileira, decidiu explorar sua aptidão natural para a comunicação e mudou definitivamente de atividade."
@@ -304,14 +303,7 @@
       {
         "desk": "/img/slide-desk-1.png",
         "mobile": "/img/slide-mobile-1.png",
-        "alt": "OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA",
-        "url": "/mestres-de-cerimonias"
-      },
-      {
-        "desk": "/img/slide-desk-2.png",
-        "mobile": "/img/slide-mobile-2.png",
-        "alt": "OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA",
-        "url": "/palestrantes"
+        "alt": "OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA"
       }
     ],
     [

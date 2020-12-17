@@ -33,7 +33,12 @@ export const ColumnRight = styled.div`
   flex: 1 0 auto;
   max-width: 370px;
   display: flex;
+  text-align: right;
   flex-direction: column;
+
+  p {
+    text-align: right;
+  }
 
   @media (max-width: 900px) {
     padding: 30px 0;
@@ -66,7 +71,7 @@ export const Title = styled.h2`
     text-transform: uppercase;
     font-size: ${theme.font.sizes.xlarge};
     color: ${theme.colors.$c_black_light};
-    font-weight: normal;
+    font-weight: bold;
 
     @media (max-width: 900px) {
       text-align: center;
@@ -115,14 +120,14 @@ export const Text = styled.div`
     font-size: ${theme.font.sizes.medium};
     color: ${theme.colors.$c_black};
     line-height: ${theme.font.line};
-    text-align: justify;
+    text-align: left;
 
     p {
       margin-bottom: 15px;
-    }
-
-    @media (max-width: 900px) {
-      text-align: center;
+      @media (max-width: 900px) {
+        text-align: center;
+        margin: 0 auto;
+      }
     }
   `}
 `

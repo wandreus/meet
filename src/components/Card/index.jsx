@@ -5,6 +5,10 @@ const Card = ({ item }) => {
   const speake = `/palestrantes/${item?.url}`
   const master = `/mestres-de-cerimonias/${item?.url}`
   const url = item?.type == 'Palestrante' ? speake : master
+  const short_description =
+    item?.short_description?.length >= 75
+      ? `${item?.short_description.slice(0, 75)}...`
+      : item?.short_description
 
   return (
     <S.Wrapper itemScope itemtype="http://microformats.org/profile/hcard">
@@ -24,7 +28,7 @@ const Card = ({ item }) => {
         <S.Titulo itemProp="name">{item?.name}</S.Titulo>
       </S.Img>
       <S.Figcaption>
-        <S.Text itemProp="desc">{item?.short_description}</S.Text>
+        <S.Text itemProp="desc">{short_description}</S.Text>
         <Link href={url}>
           <S.Link itemProp="url">
             Saiba Mais

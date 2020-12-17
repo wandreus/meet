@@ -3,7 +3,7 @@ import * as S from './styles'
 const Whats = () => {
   return (
     <S.Wrapper
-      href="https://api.whatsapp.com/send?phone=(11)97227-9606"
+      href="https://api.whatsapp.com/send?phone=5511972279606"
       target="_blank"
       itemProp="url"
       rel="noopener noreferrer"

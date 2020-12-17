@@ -73,9 +73,9 @@ export const Link = styled.a`
     text-decoration: underline;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     cursor: pointer;
-    max-height: 300px;
+    max-height: 240px;
     overflow: hidden;
 
     svg {

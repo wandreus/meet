@@ -10,6 +10,7 @@ const PageTemplate = ({ palestrante }) => {
   const [
     { name, bio, video, theme, img, short_description, type, bread }
   ] = palestrante
+
   return (
     <S.Wrapper>
       <Container>

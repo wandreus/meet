@@ -8,6 +8,7 @@ import * as S from './styles'
 
 function BannerTv({ list: banners }) {
   const customeSlider = createRef()
+  const valid = banners.length > 1
 
   const sliderSettings = {
     infinite: true,
@@ -21,36 +22,54 @@ function BannerTv({ list: banners }) {
 
   return (
     <S.Wrapper>
-      <Arrow
-        Button
-        callback={() => customeSlider.current.slickPrev()}
-        data-direction="left"
-        className="arrow"
-      />
+      {valid && (
+        <Arrow
+          Button
+          callback={() => customeSlider.current.slickPrev()}
+          data-direction="left"
+          className="arrow"
+        />
+      )}
       <Slider className="desk" {...sliderSettings} ref={customeSlider}>
-        {banners?.map(({ desk, alt, url }, key) => (
-          <Link href={url} key={key}>
-            <a>
-              <img src={desk} alt={alt} width={1920} height={470} />
-            </a>
-          </Link>
-        ))}
+        {banners?.map(({ desk, alt, url }, key) =>
+          url ? (
+            <Link href={url} key={`D${key}`}>
+              <a>
+                <img src={desk} alt={alt} width={1920} height={470} />
+              </a>
+            </Link>
+          ) : (
+            <img
+              src={desk}
+              key={`D${key}`}
+              alt={alt}
+              width={1920}
+              height={470}
+            />
+          )
+        )}
       </Slider>
       <Slider className="mobile" {...sliderSettings}>
-        {banners?.map(({ mobile, alt, url }, key) => (
-          <Link href={url} key={key}>
-            <a>
-              <img src={mobile} alt={alt} />
-            </a>
-          </Link>
-        ))}
+        {banners?.map(({ mobile, alt, url }, key) =>
+          url ? (
+            <Link href={url} key={`M${key}`}>
+              <a>
+                <img src={mobile} alt={alt} />
+              </a>
+            </Link>
+          ) : (
+            <img src={mobile} alt={alt} key={`M${key}`} />
+          )
+        )}
       </Slider>
-      <Arrow
-        Button
-        callback={() => customeSlider.current.slickNext()}
-        data-direction="right"
-        className="arrow"
-      />
+      {valid && (
+        <Arrow
+          Button
+          callback={() => customeSlider.current.slickNext()}
+          data-direction="right"
+          className="arrow"
+        />
+      )}
     </S.Wrapper>
   )
 }

@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 export const Spotlight = styled.div`
   h1 {
@@ -21,20 +21,18 @@ export const Spotlight = styled.div`
 `
 
 export const Body = styled.div`
-  ${({ theme }) => css`
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 
-    h1 {
-      margin-top: 45px;
-    }
+  h1 {
+    margin-top: 45px;
+  }
 
-    h3 {
-      text-align: center;
-      margin: 30px 0 10px;
-    }
+  h3 {
+    text-align: center;
+    margin: 30px 0 10px;
+  }
 
-    @media (max-width: 900px) {
-      padding: 0 0 40px;
-    }
-  `}
+  @media (max-width: 900px) {
+    padding: 0 0 40px;
+  }
 `

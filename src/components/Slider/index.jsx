@@ -9,6 +9,8 @@ import * as S from './styles'
 function BannerTv({ list: banners }) {
   const customeSlider = createRef()
   const valid = banners.length > 1
+  const desk = banners.filter(({ desk }) => desk)
+  const mobile = banners.filter(({ mobile }) => mobile)
 
   const sliderSettings = {
     infinite: true,
@@ -31,7 +33,7 @@ function BannerTv({ list: banners }) {
         />
       )}
       <Slider className="desk" {...sliderSettings} ref={customeSlider}>
-        {banners?.map(({ desk, alt, url }, key) =>
+        {desk?.map(({ desk, alt, url }, key) =>
           url ? (
             <Link href={url} key={`D${key}`}>
               <a>
@@ -50,7 +52,7 @@ function BannerTv({ list: banners }) {
         )}
       </Slider>
       <Slider className="mobile" {...sliderSettings}>
-        {banners?.map(({ mobile, alt, url }, key) =>
+        {mobile?.map(({ mobile, alt, url }, key) =>
           url ? (
             <Link href={url} key={`M${key}`}>
               <a>

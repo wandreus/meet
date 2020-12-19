@@ -209,7 +209,7 @@
         "theme": "Resultado, Metodologia, Customização, "
       },
       {
-        "img": "https://ucec7a1282c71ad9f163ae317c90.previews.dropboxusercontent.com/p/thumb/ABDt8ubf8UYPWyroYKVTatkLssW1XOXLgncH6MjHxZZS5vdBPzbTz28mZ-3ZOfFJEF-UjoaQC5OWUEwu4g72hOTYpp6eenU_6Wov-pZYxpGtv_X51E7fF4JTxeTX2Kg61rUgvvuKf4GFlvw3wZ0TlGEfqzAuIb_EXYa4AHg3hdVpfg_U-6N17CNIy2LfVJEKOfkJtaSIRK86Zr2hpTzbIZIXUn1A20vtI8FREqqm4--q1kIdTPxp2vQrTs4MB-VkviAr60jUrj2YDQZjdVFz7ijNyVs8PDPtYDBY0AqbP8In6Gnv1jB8qZ-O0ejyHDeM422VrIahUr5XsIvF2zPHugwN_rlIQ60QXCIMF1EFg1R6B3FX4mal5fRxX9mDThrk6v2z33jgRGamHqLAPJeow8glDBaE-WW9ktYtnL4946GnyouT-2exs9II7X2P3siLAPxKY9F52EAE7BBwlgez9EMD/p.jpeg?fv_content=true&size_mode=5",
+        "img": "https://media-exp1.licdn.com/dms/image/C4E03AQGs4dmoa2zwaw/profile-displayphoto-shrink_800_800/0/1516200188760?e=1613606400&v=beta&t=ZVwU29s3l5n3lEF9zHxO2j0mrQgDCya9FaBDdl6-LsE",
         "name": "Martha Gabriel",
         "url": "marthagabriel",
         "spotlight": "yes",
@@ -272,7 +272,7 @@
         "theme": "Transformação Empresarial, Agronegócios, Superação Humana, Cooperativismo"
       },
       {
-        "img": "https://lh3.googleusercontent.com/proxy/V2jxP1GDU-LXZB3h8Ux1nsDvLejpIQCGHJqlCSDJNWUbJ0qqzQLMN4pKV_MXSeRke4Me5SQ4f2lIe3ly-tpAneiZ8_nk9twK_xE1gPmnCXIbHCYQrStIvXqIoceLQA",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmpQufBYwOYk3e0sJ6vrDXyVCrPQooRSmjEw&usqp=CAU",
         "name": "Woody",
         "url": "woody",
         "spotlight": "yes",
@@ -303,6 +303,14 @@
       {
         "desk": "/img/slide-desk-1.png",
         "mobile": "/img/slide-mobile-1.png",
+        "alt": "OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA"
+      },
+      {
+        "desk": "/img/slide-desk-2.gif",
+        "alt": "OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA"
+      },
+      {
+        "desk": "/img/slide-desk-3.gif",
         "alt": "OS MELHORES PALESTRANTES E MESTRES DE CERIMÔNIA"
       }
     ],

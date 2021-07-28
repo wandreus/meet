@@ -2,23 +2,6 @@ import styled, { css } from 'styled-components'
 
 export const Footer = styled.footer`
   ${({ theme }) => css`
-    padding: 35px 0;
-    background: ${theme?.colors?.$c_background_grad};
-    color: ${theme?.colors?.$c_white};
-    position: relative;
-
-    > div {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-      flex-direction: row;
-
-      @media (max-width: 900px) {
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-    }
   `}
 `
 

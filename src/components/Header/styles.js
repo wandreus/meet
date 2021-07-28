@@ -1,7 +1,6 @@
 import styled, { css } from 'styled-components'
 
 export const Header = styled.header`
-  padding: 5px 0;
   box-shadow: ${({ theme }) => theme.shadow};
   background: ${({ theme }) => theme.colors.$c_white};
   position: relative;

@@ -122,9 +122,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     html body {
-      @media (max-width: 900px) {
-        margin-top: 75px;
-      }
+      
     }
 
     /* http://meyerweb.com/eric/tools/css/reset/

@@ -1,184 +1,63 @@
 import styled, { css } from 'styled-components'
 
-export const Wrapper = styled.section`
-  > div {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    flex-direction: row;
+export const Wrapper = styled.div`
+  .react-calendar {
+    height: 100vh;
 
-    @media (max-width: 900px) {
-      flex-direction: column;
-      align-items: flex-start;
-      padding-right: 10px;
-      padding-left: 10px;
-      justify-content: center;
-    }
-  }
-`
-
-export const ColumnLeft = styled.div`
-  padding: 80px 0;
-  flex: 1 0 auto;
-  max-width: 600px;
-
-  @media (max-width: 900px) {
-    padding: 30px 0 0;
-    max-width: 100%;
-  }
-`
-
-export const ColumnRight = styled.div`
-  padding: 80px 0;
-  flex: 1 0 auto;
-  max-width: 370px;
-  display: flex;
-  text-align: right;
-  flex-direction: column;
-
-  p {
-    text-align: right;
-  }
-
-  @media (max-width: 900px) {
-    padding: 30px 0;
-    max-width: 100%;
-    width: 100%;
-  }
-
-  h2 {
-    margin-bottom: 20px;
-    text-align: right;
-    @media (max-width: 900px) {
-      text-align: center;
-    }
-  }
-
-  button {
-    margin-left: auto;
-    @media (max-width: 900px) {
-      margin: 15px auto;
-    }
-  }
-
-  p {
-    max-width: 370px;
-  }
-`
-
-export const Title = styled.h2`
-  ${({ theme }) => css`
-    text-transform: uppercase;
-    font-size: ${theme.font.sizes.xlarge};
-    color: ${theme.colors.$c_black_light};
-    font-weight: bold;
-
-    @media (max-width: 900px) {
-      text-align: center;
-    }
-  `}
-`
-
-export const Highlight = styled.h1`
-  ${({ theme }) => css`
-    font-weight: ${theme.font.bold};
-    font-size: ${theme.font.sizes.xxxlarge};
-    color: ${theme.colors.$c_blue};
-    line-height: 68px;
-    margin-top: 20px;
-    margin-bottom: 65px;
-    @media (max-width: 900px) {
-      margin-bottom: 30px;
-      font-size: 40px;
-      line-height: 41px;
-      text-align: center;
+    &__month-view__days {
+      height: calc(100vh - 88px);
     }
 
-    em {
-      font-style: normal;
-      color: ${theme.colors.$c_orange};
-    }
-  `}
-`
+    &__tile {
+      appearance: none;
+      display: block;
+      border: 1px solid white;
+      border-radius: 5px;
 
-export const SubTitle = styled.h3`
-  ${({ theme }) => css`
-    font-size: ${theme.font.sizes.xlarge};
-    color: ${theme.colors.$c_blue};
-    font-weight: ${theme.font.semibold};
-    margin-bottom: 25px;
-
-    @media (max-width: 900px) {
-      margin-bottom: 10px;
-      text-align: center;
-    }
-  `}
-`
-
-export const Text = styled.div`
-  ${({ theme }) => css`
-    font-size: ${theme.font.sizes.medium};
-    color: ${theme.colors.$c_black};
-    line-height: ${theme.font.line};
-    text-align: left;
-
-    p {
-      margin-bottom: 15px;
-      @media (max-width: 900px) {
-        text-align: center;
-        margin: 0 auto;
+      &--active {
+        background: #786cd9;
+        color: white;
       }
-    }
-  `}
-`
 
-export const img = styled.div`
-  margin: 90px 0 0 auto;
-  display: flex;
-  justify-content: flex-end;
-  max-width: 100%;
-
-  @media (max-width: 900px) {
-    margin: 15px auto 40px;
-    order: -1;
-  }
-`
-
-export const Speakers = styled.section`
-  ${({ theme }) => css`
-    padding: 70px 0;
-    display: block;
-    background: ${theme.colors.$c_background};
-    transform: skewY(-2deg);
-
-    > div {
-      transform: skewY(2deg);
-
-      @media (max-width: 900px) {
-        padding: 0;
+      abbr {
+        font-size: 33px;
+        color: #ff00b4;
+        font-weight: bold;
       }
     }
 
-    h1 {
-      padding-bottom: 70px;
-    }
-  `}
-`
+    &__navigation {
+      &__label {
+        border: none;
+        padding: 20px;
+        font-size: 22px;
+        appearance: none;
+      }
 
-export const Masters = styled.section`
-  ${({ theme }) => css`
-    padding: 70px 0 30px;
-    display: block;
-    background: ${theme.colors.$c_white};
+      &__arrow {
+        border: none;
+        padding: 20px;
+        font-size: 22px;
+        font-weight: bold;
+        appearance: none;
+        color: white;
+        background: #786cd9;
+      }
 
-    h1 {
-      padding-bottom: 70px;
-    }
+      &__prev-button {
+        margin-left: 5px;
+      }
 
-    > div {
-      @media (max-width: 900px) {
-        padding: 0;
+      &__next-button {
+        margin-right: 5px;
       }
     }
-  `}
+
+    &__month-view__weekdays__weekday {
+      text-align: center;
+      font-size: 13px;
+      text-transform: uppercase;
+      padding: 5px 0;
+    }
+  }
 `

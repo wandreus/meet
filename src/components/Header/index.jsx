@@ -11,14 +11,7 @@ const Header = () => {
 
   return (
     <S.Header>
-      <Container>
-        <Logo />
-        <S.ContainerNav className={useNav && 'js-open'}>
-          <S.Icon className="icon" onClick={() => setNav((use) => !use)} />
-          <Menu />
-          <SocialNetwork />
-        </S.ContainerNav>
-      </Container>
+      
     </S.Header>
   )
 }
